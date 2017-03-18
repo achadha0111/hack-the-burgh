@@ -9,6 +9,7 @@ import sklearn.manifold
 import matplotlib.pyplot as plt
 import time
 import json
+from sklearn.feature_extraction.text import TfidfVectorizer
 
 start = time.time()
 
@@ -20,30 +21,6 @@ for each in hackathons['project_description']:
     words = words.lower().split()
     text_corpus.append(words)
     
-num_features = 100
-min_word_count = 1
-num_workers = multiprocessing.cpu_count()
-context_size = 7
-downsampling = 1e-3
-seed = 3
-
-hack2vec = w2v.Word2Vec(
-    sg=1,
-    seed=seed,
-    workers=num_workers,
-    size=num_features,
-    min_count=min_word_count,
-    window=context_size,
-    sample=downsampling
-)
-
-hack2vec.build_vocab(text_corpus)
-#print ("Vocab size: " + str(len(hack2vec.vocab)))
-
-hack2vec.train(text_corpus)
-if not os.path.exists("trained"):
-    os.makedirs("trained")
-hack2vec.save(os.path.join("trained", "hack2vec.w2v"))
 
 hacks2vec = w2v.Word2Vec.load(os.path.join("trained", "hack2vec.w2v"))
 
@@ -57,6 +34,51 @@ def hackVector(row):
         normalised_vector_sum = sklearn.preprocessing.normalize(vector_sum)
         return normalised_vector_sum
 hackathons['hack_vector'] = hackathons['project_description'].apply(hackVector)
+
+stemmer = PorterStemmer()
+def to_words(content):
+    letters_only = re.sub("[^a-zA-Z]", " ", content)
+    words = letters_only.lower().split()
+    stops = set(stopwords.words("english"))
+    meaningful_words = [w for w in words if not w in stops]
+    array = []
+    array.append(" ".join(meaningful_words))
+    return array 
+
+'''def text_preprocessing(description):
+    description = re.sub("[^a-zA-Z.,]", " ", description)
+    for project in range(len(description)):
+        tokens = nltk.word_tokenize(description)
+        singles = [stemmer.stem(token) for token in tokens]
+        singles = ' '.join(singles)
+        #description[project] = ''.join(singles)
+    array = []
+    array.append(singles)
+    return array'''
+
+def extractKeywords(description):
+    #processed_text = text_preprocessing(description)
+    #print ("Processed text: " + processed_text)
+    vectorizer = TfidfVectorizer(analyzer='word')
+    result = vectorizer.fit_transform(description)
+
+    feature_array = np.array(vectorizer.get_feature_names())
+    tfidf_sorting = np.argsort(result.toarray()).flatten()[::-1]
+
+    n = 20
+
+    top_keywords = feature_array[tfidf_sorting][:n]
+    print (top_keywords)
+    return top_keywords 
+
+def keywords(row):
+    try:
+        return ','.join(extractKeywords(to_words(row['project_description'])))
+    except:
+        pass
+
+hackathons['keywords'] = hackathons.apply(keywords, axis=1)     
+hackathons.reset_index().to_json('data.json', orient='records')
 
 end = time.time() - start
 
