@@ -1,10 +1,26 @@
 @import '../../styles/base';
 
+.compareContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.backButton {
+  position: fixed;
+
+  top: em(10px);
+  left: em(10px);
+}
 
 .inputForm {
+  width: 100%;
+  height: 100%;
+
   display: flex;
   flex-direction: row;
-
+  justify-content: center;
   align-items: center;
 
   @include mobile {
@@ -18,4 +34,114 @@
       margin: 0 0 em(10px);
     }
   }
+}
+
+
+.compareView {
+  width: em(600px);
+  margin: 0;
+
+  align-self: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  @include tablet {
+    width: 95%;
+  }
+
+  .projectTitle {
+    margin: em(60px) 0 em(20px);
+  }
+
+  .resultsContainer {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .result {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      border-bottom: 1px solid #D3D3D3;
+      margin: em(10px) 0 0;
+
+      &:last-of-type {
+        border-bottom: 0;
+      }
+
+      .titleLine {
+        height: em(20px);
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+
+        @include tablet {
+          flex-direction: column;
+        }
+
+        >h3, h4 {
+          margin: 0;
+        }
+
+        .progressBox {
+          display: flex;
+          justify-content: flex-start;
+          align-items: flex-start;
+
+          width: em(150px);
+          height: em(12px);
+          background-color: #89C4F4;
+
+          margin: 0 em(10px);
+
+          .progress {
+            height: 100%;
+            background-color: #22313F;
+          }
+        }
+
+        .score {
+          display: flex;
+          font-weight: bold;
+          font-size: em(18px);
+        }
+      }
+
+      .locationTitle {
+        color: #808080;
+        font-size: em(10px);
+        margin: 0 0 em(30px, 10px);
+      }
+
+      .detailsContainer {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+
+        .box {
+          width: 45%;
+          display: flex;
+          flex-wrap: wrap;
+          margin: 0 0 em(10px);
+
+          .tag {
+            height: em(18px, 10px);
+            background-color: #DCDCDC;
+            margin: em(2px, 10px);
+            padding: em(1px, 10px) em(3px, 10px);
+            border-radius: em(2px, 10px);
+            font-size: em(10px);
+          }
+        }
+      }
+      
+    }
+  }
+
 }
