@@ -29,13 +29,13 @@ def hackVector(row):
     vector_sum = 0
     words = re.sub("[^a-zA-Z]", " ", row).lower().split()
     for word in words:
-        vector_sum = vector_sum + hack2vec[word]
+        vector_sum = vector_sum + hacks2vec[word]
         vector_sum = vector_sum.reshape(1, -1)
         normalised_vector_sum = sklearn.preprocessing.normalize(vector_sum)
         return normalised_vector_sum
 hackathons['hack_vector'] = hackathons['project_description'].apply(hackVector)
 
-stemmer = PorterStemmer()
+#stemmer = PorterStemmer()
 def to_words(content):
     letters_only = re.sub("[^a-zA-Z]", " ", content)
     words = letters_only.lower().split()
@@ -73,11 +73,11 @@ def extractKeywords(description):
 
 def keywords(row):
     try:
-        return ','.join(extractKeywords(to_words(row['project_description'])))
+        return ','.join(extractKeywords(to_words(row)))
     except:
         pass
 
-hackathons['keywords'] = hackathons.apply(keywords, axis=1)     
+#hackathons['keywords'] = hackathons['project_description'].apply(keywords)     
 hackathons.reset_index().to_json('data.json', orient='records')
 
 end = time.time() - start
