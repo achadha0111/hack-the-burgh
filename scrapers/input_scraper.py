@@ -8,6 +8,7 @@ from nltk.corpus import stopwords
 from nltk.stem.porter import *
 import re 
 
+from sklearn.feature_extraction.text import TfidfVectorizer
 
 stemmer = PorterStemmer()
 class MyOpener(FancyURLopener):
@@ -72,22 +73,32 @@ def scrapeProject(url):
     return (" ".join(meaningful_words))'''
 
 
-def text_preprocessing(description):
-    description = re.sub("[^a-zA-Z", " ", description).lower()
+stemmer = PorterStemmer()
+def to_words(content):
+    letters_only = re.sub("[^a-zA-Z]", " ", content)
+    words = letters_only.lower().split()
+    stops = set(stopwords.words("english"))
+    meaningful_words = [w for w in words if not w in stops]
+    array = []
+    array.append(" ".join(meaningful_words))
+    return array 
+
+'''def text_preprocessing(description):
+    description = re.sub("[^a-zA-Z.,]", " ", description)
     for project in range(len(description)):
-        tokens = nltk.word_tokenize(content[project])
-        try:
-            singles = [stemmer.stem(token) for token in tokens]
-        except:
-            pass
+        tokens = nltk.word_tokenize(description)
+        singles = [stemmer.stem(token) for token in tokens]
         singles = ' '.join(singles)
-        content[project] = ''.join(singles)
-    return content
+        #description[project] = ''.join(singles)
+    array = []
+    array.append(singles)
+    return array'''
 
 def extractKeywords(description):
-    processed_text = text_preprocessing(description)
+    #processed_text = text_preprocessing(description)
+    #print ("Processed text: " + processed_text)
     vectorizer = TfidfVectorizer(analyzer='word')
-    result = vectorizer.fit_transform('processed_text')
+    result = vectorizer.fit_transform(description)
 
     feature_array = np.array(vectorizer.get_feature_names())
     tfidf_sorting = np.argsort(result.toarray()).flatten()[::-1]
@@ -95,8 +106,8 @@ def extractKeywords(description):
     n = 20
 
     top_keywords = feature_array[tfidf_sorting][:n]
-    print top_keywords
-    return top_keywords
+    print (top_keywords)
+    return top_keywords 
 
-extractKeywords('We wanted to embrace the theme of travelling by making a game in which you would be running to catch your plane, dodging usual airport items and people on your way. Due to the extreme lack of  free 3D assets and our lack of expertise with making them, we eventually restricted it to the theme of space, which did open our game to new physics and possibilities.This is a really fun game in which you use your hands, free of any controller, to move obstacles out of your path to the finish line using a LEAP Motion.We used Unity as the main development tool. The LEAP Motion SDK allowed us to implement a pair of virtual hands that would mimic your real hands in the game, using the sensor. Then we made a playing field that would spawn obstacles in waves of increasing speed and complexity, which moves relative to the player, giving the illusion of infinite motion.The main issue was the fact that none of us had used Unity before. The similarities between Java and the C# Unity uses thankfully helped us.\nThe second biggest issue was the act that the newest version of Unity, which we were using, has changed incredibly much of the inheritance relations between components, methods used by objects and the way you interact with them. This made many of the online resources obsolete.We have successfully proven our understanding of object oriented programming by successfully going way beyond our comfort zone (plain Java).For us, this was a great learning experiment of how we can write a program that interacts in a true way with the real world.The game can easily be made to fit any theme : the airport, te beach, mountains etc. The only things standing in the way of this are the prices of good assets but mostly lack of Blender skills to make them on our own.')
+#Add a call to extract keywords on the submission here
 

@@ -1,0 +1,21 @@
+@import '../../styles/base';
+
+
+.inputForm {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+
+  @include mobile {
+    flex-direction: column;
+  }
+
+  :first-child {
+    margin-right: em(20px);
+
+    @include mobile {
+      margin: 0 0 em(10px);
+    }
+  }
+}
