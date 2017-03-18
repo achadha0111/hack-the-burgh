@@ -57,7 +57,6 @@ def hackVector(row):
         normalised_vector_sum = sklearn.preprocessing.normalize(vector_sum)
         return normalised_vector_sum
 hackathons['hack_vector'] = hackathons['project_description'].apply(hackVector)
-
 end = time.time() - start
 
 print (str(end)+" seconds")
