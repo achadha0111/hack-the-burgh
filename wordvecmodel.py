@@ -7,8 +7,12 @@ import re
 import pprint
 import sklearn.manifold
 import matplotlib.pyplot as plt
+import time
+import json
 
-hackathons = pd.read_json("projects.json", encoding='utf-8')
+start = time.time()
+
+hackathons = pd.read_json("scrapers/projects.json", encoding='utf-8')
 
 text_corpus = []
 for each in hackathons['project_description']:
@@ -34,7 +38,7 @@ hack2vec = w2v.Word2Vec(
 )
 
 hack2vec.build_vocab(text_corpus)
-print ("Vocab size: " + str(len(hack2vec.vocab)))
+#print ("Vocab size: " + str(len(hack2vec.vocab)))
 
 hack2vec.train(text_corpus)
 if not os.path.exists("trained"):
@@ -50,6 +54,10 @@ def hackVector(row):
     for word in words:
         vector_sum = vector_sum + hack2vec[word]
         vector_sum = vector_sum.reshape(1, -1)
-        normalised_vector_sum = sklearn.preprocessing.normalise(vector_sum)
+        normalised_vector_sum = sklearn.preprocessing.normalize(vector_sum)
         return normalised_vector_sum
 hackathons['hack_vector'] = hackathons['project_description'].apply(hackVector)
+
+end = time.time() - start
+
+print (str(end)+" seconds")
