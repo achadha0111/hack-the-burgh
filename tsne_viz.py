@@ -1,3 +1,7 @@
+import pandas as pd
+import numpy as np
+import sklearn.manifold
+hackathon_vectors = pd.read_json('database.json')
 hack_vectors = []
 
 for hackathon_vector in hackathon_vectors['hack_vector']:
@@ -12,6 +16,6 @@ df.head(10)
 df.reset_index(drop=True, inplace=True)
 hackathon_vectors.reset_index(drop=True, inplace=True)
 
-two_dimensional_songs = pd.concat([songs, df], axis=1)
+two_dimensional_hackathons = pd.concat([hackathon_vectors, df], axis=1)
 
-two_dimensional_songs.to_csv('tsneviz.csv')
+two_dimensional_hackathons.to_csv('tsneviz.csv')
