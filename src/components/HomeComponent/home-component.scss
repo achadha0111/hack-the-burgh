@@ -80,7 +80,7 @@
 
     .result {
       width: 100%;
-      min-height: em(70px);
+      min-height: em(100px);
       height: auto;
       display: flex;
       flex-direction: column;
@@ -140,7 +140,7 @@
       .detailsContainer {
         display: flex;
         justify-content: space-between;
-        height: em(15px);
+        height: auto;
         margin: 0 0 em(10px);
 
         @include tablet {
@@ -149,15 +149,22 @@
 
         .box {
           width: 45%;
-          height: 100%;
+          height: auto;
 
           display: flex;
           flex-wrap: wrap;
 
+          .tagTitle {
+            text-transform: uppercase;
+            font-weight: bold;
+            align-self: center;
+            margin-right: em(10px);
+          }
+
           .tag {
             height: em(18px, 10px);
             background-color: #DCDCDC;
-            //margin: em(5px, 10px);
+            margin: em(3px, 10px);
             padding: em(1px, 10px) em(3px, 10px);
             border-radius: em(2px, 10px);
             font-size: em(10px);

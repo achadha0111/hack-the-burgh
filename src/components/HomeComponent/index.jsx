@@ -76,6 +76,26 @@ export default class HomeComponent extends Component {
                   </div>
                   
                   <div className='detailsContainer'>
+                    <div className='box'>
+                      <small className='tagTitle'>Technologies: </small>
+                      
+                      { result.project_tags.slice(0,4).map((key, id) => {
+                        id++
+                        return(<span className='tag' key={id}>{key}</span>)
+                      
+                      })}                       
+                      
+                    </div>
+                    <div className='box'>
+                      <small className='tagTitle'>Tags: </small>
+                      
+                      { result.keywords.split(',').slice(0,4).map((key, id) => {
+                        id++
+                        return(<span className='tag' key={id}>{key}</span>)
+                      
+                      })}  
+
+                    </div>
                   </div>
                 </div>
 
