@@ -3,10 +3,10 @@ import urllib.request
 from bs4 import BeautifulSoup
 #import simplejson as json
 import numpy as np
-import nltk 
+import nltk
 from nltk.corpus import stopwords
 from nltk.stem.porter import *
-import re 
+import re
 import json
 import gensim.models.word2vec as w2v
 import os
@@ -24,16 +24,16 @@ openurl = MyOpener().open
 
 class ProjectData:
 	#Constructor
-    def __init__(self,url, name, hackathon, description, tags, likes):
-        self.url = url
-        self.name = name
-        self.hackathon = hackathon
-        self.description = description
-        self.tags = tags
-        self.likes = likes
+    def __init__(self,hackathon_name, keywords, project_description, project_name, project_tags,project_url):
+        self.hackathon_name = hackathon_name
+        self.keywords = keywords
+        self.project_description = project_description
+        self.project_name = project_name
+        self.project_tags = project_tags
+        self.project_url = project_url
 	#Pretty Printer
     def __repr__(self):
-        return '"name": "%s", "hackathon": "%s", "description": "%s", "tags": "%s", "likes": "%d"' % (self.name, self.hackathon, self.description, self.tags, self.likes)
+        return '"hackathon_name": "%s", "keywords": "%s", "project_description": "%s", "project_name": "%s", "project_tags": "%s","project_url": "%s"' % (self.hackathon_name, self.keywords, self.project_description, self.project_name, self.project_tags,self.project_url)
 
 def scrapeProject(url):
     soup = BeautifulSoup(openurl(url).read(),'lxml')
@@ -66,6 +66,7 @@ def scrapeProject(url):
     a = likes2.split(' ')
     numberOfLikes2 = int(a[0])
     data.append(ProjectData(url,name2,hackathon2,description2,tags2,numberOfLikes2))
+    data.append(hackathon2,extractKeywords(description2),description2,name2,tags2,url)
     json_data = json.dumps(data, indent=4, default=lambda o:o.__dict__)
     #print (repr(data))
     with open('myProject.json','w') as f:
@@ -93,7 +94,7 @@ def to_words(content):
     meaningful_words = [w for w in words if not w in stops]
     array = []
     array.append(" ".join(meaningful_words))
-    return array 
+    return array
 
 '''def text_preprocessing(description):
     description = re.sub("[^a-zA-Z.,]", " ", description)
@@ -119,7 +120,7 @@ def extractKeywords(description):
 
     top_keywords = feature_array[tfidf_sorting][:n]
     print (top_keywords)
-    return top_keywords 
+    return top_keywords
 
 
 

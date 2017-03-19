@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Landing Ducks",
+        "tags": [
+            "lua",
+            "python",
+            "love",
+            "cristiano's-face-api",
+            "bloomberg"
+        ],
+        "url": "https://devpost.com/software/luaduckhunt",
+        "likes": 2,
+        "hackathon": "MLH Landing",
+        "description": "Revisit the cult classic Duck Hunt with plenty of awesome features!"
+    }
+]
