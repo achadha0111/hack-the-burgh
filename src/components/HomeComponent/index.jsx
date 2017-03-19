@@ -62,25 +62,31 @@ export default class HomeComponent extends Component {
       <div className='compareContainer'>
         <Button className='backButton' size='medium' color='black' onClick={() => {this.setState({ compare: false, value: '' })} }>Go Back</Button>
         <div className='compareView'>
-          <h1 className='projectTitle'>{data.url || '...'}</h1>
+          <h1 className='projectTitle'>{this.state.value ? this.state.url : 'Loading...'}</h1>
           <div className='resultsContainer'>
-            <div className='result'>
-              <div className='titleLine'>
-                <a href='#'><h3>Bloomberg Terminal</h3></a>
-                <span className='score'><div className='progressBox'><div className='progress' style={{'width': '30%'}}></div></div> 87%</span>
-              </div>
-              <div><span className='locationTitle'>Unihack</span></div>
-              <div className='detailsContainer'>
-                <div className='box'>
-                  <strong>Keywords: </strong>
-                  <span className='tag'>PHP</span>
+            {data ? data.map(result => {
+              let percentage = Math.round(result.similarity_score)
+              return (
+                <div className='result'>
+                  <div className='titleLine'>
+                    <a href={ result.project_url }><h3>{ result.project_name }</h3></a>
+                    <span className='score'><div className='progressBox'><div className='progress' style={{ 'width': `${percentage}%` }}></div></div> {percentage}%</span>
+                  </div>
+                  <div><span className='locationTitle'>{ result.hackathon_name }</span></div>
+                  <div className='detailsContainer'>
+                    <div className='box'>
+                      <strong>Tags: </strong>
+                      <span className='tag'>PHP</span>
+                    </div>
+                    <div className='box'>
+                      <strong>Technologies: </strong>
+                      <span className='tag'>PHP</span>
+                    </div>
+                  </div>
                 </div>
-                <div className='box'>
-                  <strong>Technologies: </strong>
-                  <span className='tag'>PHP</span>
-                </div>
-              </div>
-            </div>
+
+              )
+            }) : null}
           </div>
         </div>
       </div>
