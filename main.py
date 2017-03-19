@@ -24,16 +24,17 @@ openurl = MyOpener().open
 
 class ProjectData:
 	#Constructor
-    def __init__(self,hackathon_name, keywords, project_description, project_name, project_tags,project_url):
+    def __init__(self,hackathon_name, keywords, project_description, project_name, project_tags,project_url, vector_project):
         self.hackathon_name = hackathon_name
         self.keywords = keywords
         self.project_description = project_description
         self.project_name = project_name
         self.project_tags = project_tags
         self.project_url = project_url
+        self.vector_project = vector_project
 	#Pretty Printer
     def __repr__(self):
-        return '"hackathon_name": "%s", "keywords": "%s", "project_description": "%s", "project_name": "%s", "project_tags": "%s","project_url": "%s"' % (self.hackathon_name, self.keywords, self.project_description, self.project_name, self.project_tags,self.project_url)
+        return '"hackathon_name": "%s", "keywords": "%s", "project_description": "%s", "project_name": "%s", "project_tags": "%s","project_url": "%s", "vectors": "%s"' % (self.hackathon_name, self.keywords, self.project_description, self.project_name, self.project_tags,self.project_url, self.vector_project)
 
 def scrapeProject(url):
     soup = BeautifulSoup(openurl(url).read(),'lxml')
@@ -50,7 +51,7 @@ def scrapeProject(url):
     paragraphs = text.find_all('p')
     description2 = ''
     for paragraph in paragraphs:
-        description2 += name2 + " "
+        #description2 += name2 + " "
         description2 += paragraph.text.strip()
 
     #tags
@@ -65,14 +66,16 @@ def scrapeProject(url):
     likes2 = likes2.text.strip()
     a = likes2.split(' ')
     numberOfLikes2 = int(a[0])
-    data.append(ProjectData(url,name2,hackathon2,description2,tags2,numberOfLikes2))
-    data.append(hackathon2,extractKeywords(description2),description2,name2,tags2,url)
+    project_vector = hackVector(description2)
+    print (project_vector)
+    #data.append(ProjectData(url,name2,hackathon2,description2,tags2,numberOfLikes2))
+    data.append(ProjectData(hackathon2,extractKeywords(to_words(description2)), description2, name2, tags2, url, list(project_vector)))
     json_data = json.dumps(data, indent=4, default=lambda o:o.__dict__)
     #print (repr(data))
     with open('myProject.json','w') as f:
         f.write(json_data)
     #json_data = json.loads(repr(data))
-    print ('Success')
+    print ('Wrote to file')
     '''json_data[keywords] = extractKeywords(to_words(json_data[description]))
     json_data[vector] = hackVector(json_data[description])
     print (json_data)
@@ -120,7 +123,7 @@ def extractKeywords(description):
 
     top_keywords = feature_array[tfidf_sorting][:n]
     print (top_keywords)
-    return top_keywords
+    return top_keywords.tolist()
 
 
 
@@ -128,20 +131,12 @@ def hackVector(description):
     vector_sum = 0
     words = re.sub("[^a-zA-Z]", " ", description).lower().split()
     for word in words:
-        try:
-            vector_sum = vector_sum + hacks2vec[word]
-
-        except:
-            vector_sum = np.zeros(100)
+        vector_sum = vector_sum + hacks2vec[word]
         vector_sum = vector_sum.reshape(1, -1)
         normalised_vector_sum = sklearn.preprocessing.normalize(vector_sum)
-        return normalised_vector_sum
+        return normalised_vector_sum.tolist()
 
-scrapeProject('https://devpost.com/software/spacetrip')
+scrapeProject('https://devpost.com/software/globeal-news')
 
 
-dataframe = pd.read_json("myProject.json", encoding='utf-8')
-dataframe['project_vector'] = hackVector(dataframe['description'])
-dataframe['keywords'] = extractKeywords(dataframe['description'][0])
 
-dataframe.head()
