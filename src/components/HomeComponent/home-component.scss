@@ -122,7 +122,10 @@
       .detailsContainer {
         display: flex;
         justify-content: space-between;
-        flex-direction: column;
+
+        @include tablet {
+          flex-direction: column;
+        }
 
         .box {
           width: 45%;
