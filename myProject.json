@@ -1,15 +1,14 @@
 [
     {
-        "url": "https://devpost.com/software/spacetrip",
-        "name": "SpaceTrip",
-        "hackathon": "StudentHack V",
         "description": "SpaceTrip We wanted to embrace the theme of travelling by making a game in which you would be running to catch your plane, dodging usual airport items and people on your way. Due to the extreme lack of  free 3D assets and our lack of expertise with making them, we eventually restricted it to the theme of space, which did open our game to new physics and possibilities.SpaceTrip This is a really fun game in which you use your hands, free of any controller, to move obstacles out of your path to the finish line using a LEAP Motion.SpaceTrip We used Unity as the main development tool. The LEAP Motion SDK allowed us to implement a pair of virtual hands that would mimic your real hands in the game, using the sensor. Then we made a playing field that would spawn obstacles in waves of increasing speed and complexity, which moves relative to the player, giving the illusion of infinite motion.SpaceTrip The main issue was the fact that none of us had used Unity before. The similarities between Java and the C# Unity uses thankfully helped us.\nThe second biggest issue was the act that the newest version of Unity, which we were using, has changed incredibly much of the inheritance relations between components, methods used by objects and the way you interact with them. This made many of the online resources obsolete.SpaceTrip We have successfully proven our understanding of object oriented programming by successfully going way beyond our comfort zone (plain Java).SpaceTrip For us, this was a great learning experiment of how we can write a program that interacts in a true way with the real world.SpaceTrip The game can easily be made to fit any theme : the airport, te beach, mountains etc. The only things standing in the way of this are the prices of good assets but mostly lack of Blender skills to make them on our own.",
+        "url": "https://devpost.com/software/spacetrip",
+        "hackathon": "StudentHack V",
+        "name": "SpaceTrip"
         "tags": [
             "c#",
             "unity",
             "math",
-            "leap-motion"
-        ],
+            "leap-motion"],
         "likes": 1
     }
 ]

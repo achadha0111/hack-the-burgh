@@ -26,7 +26,7 @@ for i in range(1,5):
 
   #iterate through hackathons in the page
   for hackathon in page.find_all('a',{'class':'clearfix'}):
-    time.sleep(1)
+    
     hackathon_name = hackathon.find('h2',{'class':'title'}).text.strip()
     print hackathon_name
     dodgy_url = hackathon['href'][8:]
@@ -67,8 +67,9 @@ for i in range(1,5):
             project_page=BeautifulSoup(openurl(project['href']).read(),"lxml")
             info['project_name'] = project_page.find('h1',id='app-title').text.strip()
             info['project_url'] = project['href']
-            project_page=BeautifulSoup(openurl(project['href']).read(),"lxml",parse_only=SoupStrainer('div',{'class':'large-9 columns'}))
+            project_page=BeautifulSoup(openurl("https://devpost.com/software/virtual-drum").read(),"lxml",parse_only=SoupStrainer('div',{'class':'large-9 columns'}))
             project_description = project_page.find('div',id='')
+            print project_description.text.strip()
             info['project_description']=project_description.text.strip()
             project_tags = project_page.find_all('span',{'class':'cp-tag recognized-tag'})
             project_tags_list=[]
