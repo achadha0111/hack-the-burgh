@@ -46,6 +46,7 @@ if (project.env === 'development') {
       if (err) {
         return next(err)
       }
+      res.header('Access-Control-Allow-Origin', '*')
       res.set('content-type', 'text/html')
       res.send(result)
       res.end()

@@ -6,7 +6,8 @@ import { Button, Input, Form } from 'semantic-ui-react'
 
 import './home-component.scss'
 
-const data = require('../../../scrapers/projects.json')
+var request = require('superagent');
+var data = '..'
 
 export default class HomeComponent extends Component {
   
@@ -16,7 +17,8 @@ export default class HomeComponent extends Component {
     this.state = {
       url: null,
       warning: false,
-      compare: false
+      compare: false,
+      value: ''
     }
 
     this.handleChange = this.handleChange.bind(this)
@@ -42,11 +44,25 @@ export default class HomeComponent extends Component {
   }
 
   renderCompare(url) {
+    fetch('https://ancient-peak-64085.herokuapp.com/' + url, {
+      method: 'get',
+      mode: 'cors'
+    }).then((response) => {
+      response.json().then(data => {
+        !this.state.value ? this.setState({ value: data }) : null
+      })
+    }).catch((err) => {
+      console.error(err)
+    })
+
+    const data = this.state.value || ''
+    console.log(this.state)
+
     return (
       <div className='compareContainer'>
-        <Button className='backButton' size='medium' color='black' onClick={() => {this.setState({ compare: false })} }>Go Back</Button>
+        <Button className='backButton' size='medium' color='black' onClick={() => {this.setState({ compare: false, value: '' })} }>Go Back</Button>
         <div className='compareView'>
-          <h1 className='projectTitle'>My Fance Project name or whatever</h1>
+          <h1 className='projectTitle'>{data.url || '...'}</h1>
           <div className='resultsContainer'>
             <div className='result'>
               <div className='titleLine'>
@@ -58,64 +74,9 @@ export default class HomeComponent extends Component {
                 <div className='box'>
                   <strong>Keywords: </strong>
                   <span className='tag'>PHP</span>
-                  <span className='tag'>PHP</span>
-                  <span className='tag'>PHP</span>
-                  <span className='tag'>PHP</span>
-                  <span className='tag'>PHP</span>
-                  <span className='tag'>PHP</span>
-                  <span className='tag'>PHP</span>
-                  <span className='tag'>PHP</span>
-                  <span className='tag'>PHP</span>
-                  <span className='tag'>PHP</span>
-                  <span className='tag'>PHP</span>
-                  <span className='tag'>PHP</span>
-                  <span className='tag'>PHP</span>
-                  <span className='tag'>PHP</span>
-                  <span className='tag'>PHP</span>
-                  <span className='tag'>PHP</span>
-                  <span className='tag'>PHP</span>
-                  <span className='tag'>PHP</span>
                 </div>
                 <div className='box'>
                   <strong>Technologies: </strong>
-                  <span className='tag'>PHP</span>
-                  <span className='tag'>PHP</span>
-                  <span className='tag'>PHP</span>
-                </div>
-              </div>
-            </div>
-           <div className='result'>
-              <div className='titleLine'>
-                <a href='#'><h3>Bloomberg Terminal</h3></a>
-                <span className='score'><div className='progressBox'><div className='progress' style={{'width': '30%'}}></div></div> 87%</span>
-              </div>
-              <div><span className='locationTitle'>Unihack</span></div>
-              <div className='detailsContainer'>
-                <div className='box'>
-                  <strong>Keywords: </strong>
-                  <span className='tag'>PHP</span>
-                  <span className='tag'>PHP</span>
-                  <span className='tag'>PHP</span>
-                  <span className='tag'>PHP</span>
-                  <span className='tag'>PHP</span>
-                  <span className='tag'>PHP</span>
-                  <span className='tag'>PHP</span>
-                  <span className='tag'>PHP</span>
-                  <span className='tag'>PHP</span>
-                  <span className='tag'>PHP</span>
-                  <span className='tag'>PHP</span>
-                  <span className='tag'>PHP</span>
-                  <span className='tag'>PHP</span>
-                  <span className='tag'>PHP</span>
-                  <span className='tag'>PHP</span>
-                  <span className='tag'>PHP</span>
-                  <span className='tag'>PHP</span>
-                  <span className='tag'>PHP</span>
-                </div>
-                <div className='box'>
-                  <strong>Technologies: </strong>
-                  <span className='tag'>PHP</span>
-                  <span className='tag'>PHP</span>
                   <span className='tag'>PHP</span>
                 </div>
               </div>
