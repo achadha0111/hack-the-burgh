@@ -2,9 +2,11 @@ import React, { Component } from 'react'
 import ReactDOM, { render } from 'react-dom'
 import { Link, browserHistory } from 'react-router'
 
-import { Button, Input, Label } from 'semantic-ui-react'
+import { Button, Input, Form } from 'semantic-ui-react'
 
 import './home-component.scss'
+
+const data = require('../../../scrapers/projects.json')
 
 export default class HomeComponent extends Component {
   
@@ -19,10 +21,6 @@ export default class HomeComponent extends Component {
 
     this.handleChange = this.handleChange.bind(this)
     this.submitForm = this.submitForm.bind(this)
-  }
-
-  componentWillUpdate() {
-    console.log(this.state)
   }
 
   handleChange(event) {
@@ -48,7 +46,7 @@ export default class HomeComponent extends Component {
       <div className='compareContainer'>
         <Button className='backButton' size='medium' color='black' onClick={() => {this.setState({ compare: false })} }>Go Back</Button>
         <div className='compareView'>
-          <h1 className='projectTitle'>Much compare</h1>
+          <h1 className='projectTitle'>My Fance Project name or whatever</h1>
           <div className='resultsContainer'>
             <div className='result'>
               <div className='titleLine'>
@@ -130,10 +128,10 @@ export default class HomeComponent extends Component {
 
   renderForm() {
     return (
-      <div className='inputForm'>
+      <Form className='inputForm'>
         <Input type='url' placeholder='Enter project URL' size='massive' name='url' onChange={this.handleChange} />
-        <Button onClick={this.submitForm} size='massive'>Compare</Button>
-      </div>
+        <Button type='submit' onClick={this.submitForm} size='massive'>Compare</Button>
+      </Form>
     )
 
   }
