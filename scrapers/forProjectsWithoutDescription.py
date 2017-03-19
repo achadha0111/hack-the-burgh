@@ -32,7 +32,7 @@ def scrapeProject(url):
     hackathon2 = soup.find('div',{'class':'software-list-content'}).text.strip()
 
     #description
-    text = soup.find(id="gallery").next_sibling.next_sibling
+    text = soup.find(id="")
     paragraphs = text.find_all('p')
     description2 = ''
     for paragraph in paragraphs:
@@ -53,27 +53,19 @@ def scrapeProject(url):
     #numberOfLikes2 = int(a[0])
     data = ProjectData(url,name2,hackathon2,description2,tags2)
     #json_data = json.dumps(data, indent=2, default=lambda o: o.__dict__)
-    description2 = unicodedata.normalize('NFKD', description2).encode('ascii','ignore')
+    #description2 = unicodedata.normalize('NFKD', description2).encode('ascii','ignore')
 
     return description2
 
 with open('projects.json','r') as data_file:    
     projects = json.load(data_file)
 
-count = 0
 
 for project in projects:
-  if project["project_description"] == "" :
-    count += 1
-    print project["project_name"] 
-    print count
-    try:
-      projectData = scrapeProject(project["project_url"])
-      print projectData
-      project["project_description"] = projectData
-    except Exception as e:
-      print e
-      pass
-
+  print project["hackathon_name"]
+  projectData = scrapeProject(project["project_url"])
+  #print projectData
+  project["project_description"] = projectData
+    
 with open('projects.json', 'w') as outfile:
   json.dump(projects,outfile,sort_keys = True, indent = 2)
