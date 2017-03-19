@@ -56,6 +56,7 @@ export default class HomeComponent extends Component {
     })
 
     const data = this.state.value || ''
+    data ? data.reverse() : null
     console.log(this.state)
 
     return (
