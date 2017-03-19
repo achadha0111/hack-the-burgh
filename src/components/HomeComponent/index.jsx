@@ -6,6 +6,7 @@ import { Button, Input, Form } from 'semantic-ui-react'
 
 import './home-component.scss'
 
+var request = require('superagent');
 const data = require('../../../scrapers/projects.json')
 
 export default class HomeComponent extends Component {
@@ -42,6 +43,14 @@ export default class HomeComponent extends Component {
   }
 
   renderCompare(url) {
+
+    fetch('https://ancient-peak-64085.herokuapp.com/123', {
+      method: 'get',
+      //mode: 'no-cors'
+    }).then((response) => {
+      console.log(response)
+    })
+    
     return (
       <div className='compareContainer'>
         <Button className='backButton' size='medium' color='black' onClick={() => {this.setState({ compare: false })} }>Go Back</Button>

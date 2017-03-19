@@ -29,6 +29,11 @@ const karmaConfig = {
       })
     }),
     plugins : webpackConfig.plugins,
+    devServer: {
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+      }
+    },
     module  : {
       noParse : [
         /\/sinon\.js/
