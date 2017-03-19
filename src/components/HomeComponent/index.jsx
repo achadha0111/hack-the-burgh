@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import ReactDOM, { render } from 'react-dom'
 import { Link, browserHistory } from 'react-router'
 
-import { Button, Input, Form } from 'semantic-ui-react'
+import { Button, Input, Form, Segment } from 'semantic-ui-react'
 
 import './home-component.scss'
 
@@ -68,21 +68,14 @@ export default class HomeComponent extends Component {
             {data ? data.map(result => {
               let percentage = Math.round(result.similarity_score)
               return (
-                <div className='result'>
+                <div className='result' key={ result.index }>
+                  <div><span className='locationTitle'>{ result.hackathon_name }</span></div>
                   <div className='titleLine'>
                     <a href={ result.project_url }><h3>{ result.project_name }</h3></a>
                     <span className='score'><div className='progressBox'><div className='progress' style={{ 'width': `${percentage}%` }}></div></div> {percentage}%</span>
                   </div>
-                  <div><span className='locationTitle'>{ result.hackathon_name }</span></div>
+                  
                   <div className='detailsContainer'>
-                    <div className='box'>
-                      <strong>Tags: </strong>
-                      <span className='tag'>PHP</span>
-                    </div>
-                    <div className='box'>
-                      <strong>Technologies: </strong>
-                      <span className='tag'>PHP</span>
-                    </div>
                   </div>
                 </div>
 
@@ -96,12 +89,11 @@ export default class HomeComponent extends Component {
 
   renderForm() {
     return (
-      <Form className='inputForm'>
-        <Input type='url' placeholder='Enter project URL' size='massive' name='url' onChange={this.handleChange} />
-        <Button type='submit' onClick={this.submitForm} size='massive'>Compare</Button>
-      </Form>
+        <Form className='inputForm'>
+          <Input type='url' placeholder='Enter project URL' size='massive' name='url' onChange={this.handleChange} />
+          <Button type='submit' onClick={this.submitForm} size='massive'>Compare</Button>
+        </Form>
     )
-
   }
 
   renderWarning() {
