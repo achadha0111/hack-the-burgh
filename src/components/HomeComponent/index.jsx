@@ -76,17 +76,6 @@ export default class HomeComponent extends Component {
                   </div>
                   
                   <div className='detailsContainer'>
-                    <div className='box'>
-                      <strong>Tags: </strong>
-                      { result.project_tags.map(key => {
-                        <span className='tag'>{key}</span>
-                      })}                       
-                      
-                    </div>
-                    <div className='box'>
-                      <strong>Technologies: </strong>
-                      <span className='tag'>PHP</span>
-                    </div>
                   </div>
                 </div>
 
