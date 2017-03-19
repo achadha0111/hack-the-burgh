@@ -153,7 +153,7 @@
   }, 
   {
     "hackathon_name": "StudentHack V", 
-    "project_description": "", 
+    "project_description": "What do you do when music games start becoming stale? \nCreate something entirely new and addicting! \nThat's why we invented the Virtual DrumFeel the drum using Ultrahaptics tactile technology\nOculus to boost Visual experience \nBe more attentive, focused, and perceptive.\nIt is really simple and relaxing, reduces stress and depressionLeapMotion  detects your hands movements\nWhen you do the left press / right press, Ultrahaptics reacts with tactile feedback\nOculus delivers sound-beat and vision effects\nDevelop the music game by using Unity.Achieved our initial goal and developed a perfective prototype in 36 hours. \nEffective team work and precise workload distribution.Teamwork, Unity development, C# programming, VR development", 
     "project_name": "Virtual Drum", 
     "project_tags": [
       "unity", 
@@ -203,7 +203,7 @@
   }, 
   {
     "hackathon_name": "StudentHack V", 
-    "project_description": "", 
+    "project_description": "We Wanted to create a party game and VR is also mega cool. The problem is that VR headsets are expensive and most group of friends have zero or oneOne player plays in VR as the Minotaur and has to kill the other players who play in a 2D maze. A Big game of hide and seek, the Minotaur can see the soul of the other players trough walls (but they all have the same color so he doesn't know who is who)Unity\nGoJson for Unity\nAnimation\nSleepReal time Maze + Position Server (in Golang)", 
     "project_name": "Project Minos", 
     "project_tags": [
       "unity", 
@@ -361,7 +361,7 @@
   }, 
   {
     "hackathon_name": "StudentHack V", 
-    "project_description": "", 
+    "project_description": "The lack of 100% accurate bottle flipping in my lifeIt flips bottles with 100% repeatability (if it doesn't work the fault is yours)Laser cut plywood, 3D printed sensor mount, assemble, copy Arduino Sweep example, profitThey told me the plywood was 5 mm thick, but it was 6. I had to do some additional filing and swearing1) Always have a caliper handy\n2) Never share all your knowledge\n3)I have received an offer from US government to include it in the next generation of military drones", 
     "project_name": "FLIPPOBOT L", 
     "project_tags": [
       "arduino", 
@@ -384,7 +384,7 @@
   }, 
   {
     "hackathon_name": "StudentHack V", 
-    "project_description": "", 
+    "project_description": "People with large properties had to deal with their security by using very expensive surveillance systems or pay guards to take regular tours. There must be a better way!It is an autonomous drone that follows a specified path on request or at regular intervals and returns at the start point. During the travel, the drone streams video from the front camera and the software on the server uses OpenCV to detect if there are persons present.We used the Parrot AR Drone API to make the drone follow a fixed path and return at the start point. OpenCV was used to detect the presence of people in the video stream.We tried integrating with Twillio to be able to start the surveillance on request by sending a text message and receive status updates as text messages. This cannot be easily done since the server needs to be connected both to the drone and the internet and we also needed a external IP to get Twillio requests.Also, limited testing time with the drone was a very big challenge for the control software!", 
     "project_name": "DrOwnage", 
     "project_tags": [
       "c++", 
@@ -569,7 +569,7 @@
   }, 
   {
     "hackathon_name": "StudentHack V", 
-    "project_description": "", 
+    "project_description": "We wanted to make a capacitive touch keyboard.It sends arrow key input to the connected computer as a keyboard.We built it with an Arduino UNO board.Soldering the wires and making them responsive to the capacitive touch. The lack of the Arduinos I/O was also a challenge to overcome. We were not able to use a transistor mux matrix as we are sending under 10microAmp through the resistor.We finished the thing and it works with our computers.How to use Arduino and more about electrical design.Make a full keyboard not just arrow keys.", 
     "project_name": "Touch Team", 
     "project_tags": [], 
     "project_url": "https://devpost.com/software/touch-team"
@@ -803,7 +803,7 @@
   }, 
   {
     "hackathon_name": "StudentHack V", 
-    "project_description": "", 
+    "project_description": "We wanted to embrace the theme of travelling by making a game in which you would be running to catch your plane, dodging usual airport items and people on your way. Due to the extreme lack of  free 3D assets and our lack of expertise with making them, we eventually restricted it to the theme of space, which did open our game to new physics and possibilities.This is a really fun game in which you use your hands, free of any controller, to move obstacles out of your path to the finish line using a LEAP Motion.We used Unity as the main development tool. The LEAP Motion SDK allowed us to implement a pair of virtual hands that would mimic your real hands in the game, using the sensor. Then we made a playing field that would spawn obstacles in waves of increasing speed and complexity, which moves relative to the player, giving the illusion of infinite motion.The main issue was the fact that none of us had used Unity before. The similarities between Java and the C# Unity uses thankfully helped us.\nThe second biggest issue was the act that the newest version of Unity, which we were using, has changed incredibly much of the inheritance relations between components, methods used by objects and the way you interact with them. This made many of the online resources obsolete.We have successfully proven our understanding of object oriented programming by successfully going way beyond our comfort zone (plain Java).For us, this was a great learning experiment of how we can write a program that interacts in a true way with the real world.The game can easily be made to fit any theme : the airport, te beach, mountains etc. The only things standing in the way of this are the prices of good assets but mostly lack of Blender skills to make them on our own.", 
     "project_name": "SpaceTrip", 
     "project_tags": [
       "c#", 
@@ -973,7 +973,7 @@
   }, 
   {
     "hackathon_name": "StudentHack V", 
-    "project_description": "", 
+    "project_description": "We wanted to make a capacitive touch keyboard.It sends arrow key input to the connected computer as a keyboard.We built it with an Arduino UNO board.Soldering the wires and making them responsive to the capacitive touch. The lack of the Arduinos I/O was also a challenge to overcome. We were not able to use a transistor mux matrix as we are sending under 10microAmp through the resistor.We finished the thing and it works with our computers.How to use Arduino and more about electrical design.Make a full keyboard not just arrow keys.", 
     "project_name": "Touch Team", 
     "project_tags": [], 
     "project_url": "https://devpost.com/software/touch-team"
@@ -1251,7 +1251,7 @@
   }, 
   {
     "hackathon_name": "Hack@Brookes 2017", 
-    "project_description": "", 
+    "project_description": "A happy future for me and all my friends.\nIn some senses more expressive.", 
     "project_name": "portaudio expert", 
     "project_tags": [], 
     "project_url": "https://devpost.com/software/piano-2"
@@ -1560,7 +1560,7 @@
   }, 
   {
     "hackathon_name": "BCUHack 2.0", 
-    "project_description": "", 
+    "project_description": "Someone wanted an AR app for their final year project, we took it and made something completely different.Has an AR fight between two cards where they can do different kinds of hits.Vuforia gave us the AR and then we made a fight scene on top of that.Making images that would be recognised easily.We have something workingAR and some game dev stuffWorld domination", 
     "project_name": "FightAR", 
     "project_tags": [
       "unity", 
@@ -1592,7 +1592,7 @@
   }, 
   {
     "hackathon_name": "Coventry University Computer Club Hackathon", 
-    "project_description": "", 
+    "project_description": "As a company we've observed a niche in today's cyber security sector. The gap between companies who require security services to be implements and individuals qualified to carry out these actions is sizeable. We firmly believe that investing in the education of young people, particularly of school age, is a critical step towards a more advanced global cyber security standard.Our product was created to engage with students and is ready to be deployed in classrooms by teachers with little to no knowledge of the subject. This allows for the material to be taught almost autonomously of any teacher input.We created our website using HTML5, Javascript, JSON, jQuery, PHP7, MySQL, Bootstrap, HTML5 and CSS3. We host it on Amazon Web Services making use of their EC2 (Elastic Compute Cloud) and RDS (Relational Database Service) services. We registered a .com domain with domains.com and a .tech with get.tech: www.hackhamster.tech and www.hackhamster.com. Our site runs securely via HTTPS with valid certification.Issues with Javascript, collaborative coding, issues surrounding exhaustion.Supporting the #HackHarassment movementTeamwork. New programming techniques. New AWS functionality.To add more challenges and safety information.", 
     "project_name": "HackHamster", 
     "project_tags": [
       "amazon-web-services", 
@@ -1629,7 +1629,7 @@
   }, 
   {
     "hackathon_name": "Coventry University Computer Club Hackathon", 
-    "project_description": "", 
+    "project_description": "The original idea was to take a viral video at the moment and take advantage of the opportunity. After some research we realised how a good idea this is and challanged ourself with completing a game on the current viral theme Donald Trump.Is a sidescroller game, here the character (Trump) runns and collects tupee's in order to get luscious locksIn few word:We have managed to create a complete game, ready to play, share and sell.Team work is the most important thing in a hackathon.We proposed ourself to do releases at least once a week for the following two months to take advantage of the viral moment of the theme.", 
     "project_name": "Trump Toupee", 
     "project_tags": [
       "unity"
@@ -1676,7 +1676,7 @@
   }, 
   {
     "hackathon_name": "WarwickHACK 2017", 
-    "project_description": "", 
+    "project_description": "\"How are you\"\nBy asking this question, we know how people feel. However, how do we know how people felt in the past from what they have produced in the past including their photos, tweets, Facebook posts, etc. We came up with the idea to dig up the past sentiments from the most recently developed technology, and from there, we can know people's past with a single glance of the result.It reads people's tweet and photos to analyse people's emotion in their timelineThe Project is written in python with the help of Microsoft Computer Vision API to analyse faces in the photo, meanwhile, our self-developed text analyse algorithm helps us to extract emotions from lines of text.  Amazon Alexa provide a human interface to interact with users to provide an analytical result in a human-friendly way.\"\"Integration of multiple API interfaces\"\"\n\"\"Text Analyse\"\"\n\"\"BIG DATA\"\"Successful integration of multiple API and multiple sources of feed in material.To provide a better user interface to enable more possibilities of people's feeling from their footage.\nAlexa skill will be enhanced to fit in general purpose \nAn extra footage of sentimental analyse can be seen here\nhttps://youtu.be/QcUhRBkcT1sAnd We are from University of Sheffield", 
     "project_name": "How_Does_Trump_Feel", 
     "project_tags": [
       "python", 
@@ -1891,7 +1891,7 @@
   }, 
   {
     "hackathon_name": "StrathHack17", 
-    "project_description": "", 
+    "project_description": "People want to get to information quicker and websites are quickly becoming obsolete. We decided to help Student Loan Company ride the wave of the oncoming conversational chat interface wave.Loanly is a collection of services which allows any student to access information using natural language, either on the Amazon Echo or through an automated text bot that understands natural language over text.We used Python to scrape data from the Student Loan Company website, which was then fed into a noSQL database. We also set up a mock database that mimics user info. That way, users can access information about their loan themselves. This noSQL interface was queried using Javascript libraries by the Alexa and Twilio bot to provide structured responses towards user queries.Getting Alexa to understand accents was difficult. It took us some time to fix this problem. Scraping data from the Student Loan Website was difficult due to bad html and lack of consistent structure. Moreover, translating it into structured data that can be easily queried was tricky too.We got all of our features done in time.We learnt a lot of additional Alexa functionality. Web scraping was a new thing to learn too. Integrating multiple with one database.Improving the database and contextual understanding.", 
     "project_name": "Loanly", 
     "project_tags": [
       "python", 
@@ -2045,7 +2045,7 @@
   }, 
   {
     "hackathon_name": "StirHack", 
-    "project_description": "", 
+    "project_description": "We were unhappy with the state of mass multiplayer GPS games. They encourage teamwork and good feelings. We wanted to create a game that brings out the darkside in you.Mobile GPS game which allows the user to assassinate other users within a nearby proximity. \nIncludes powerups such as invisibility, decoys and shields.\nAllows a live overview of all active users.Using node.js, Socket.io, Google Maps API, mongodbProblems with getting cordova to actually build the app. \nProblems with closing sockets.Working mass multiplayer game with a good launchpad for potential improvements and ideas.Lots about socket programming and utilising GPS.Implement more advanced upgrades and a scoring system.\nMonetization.", 
     "project_name": "Assassins", 
     "project_tags": [
       "node.js", 
@@ -2207,7 +2207,7 @@
   }, 
   {
     "hackathon_name": "IC Hack 17", 
-    "project_description": "", 
+    "project_description": "We got our inspiration from games like The Witness and Portal, but we brought a lot of our originality to itIt gives you the opportunity of navigating through an open world and exploring all of its cornersWe build the game using Blender for 3D modelling and Unity as a game engine. The assistant was created using Microsoft Bot Framework QnA MakerIt was the first time we used Bot Framework and we would say the difficulty laid in linking the bot to a console we made in UnityWe managed to achieve full functionalityWe learned to use Microsoft Bot Framework and we developed our skills in game development even more, to the point where we implemented this game in less than 24hImplement bigger and better puzzles, plus add more areas", 
     "project_name": "Flames of Agartha", 
     "project_tags": [
       "blender", 
@@ -2618,7 +2618,7 @@
   }, 
   {
     "hackathon_name": "IC Hack 17", 
-    "project_description": "", 
+    "project_description": "Rube Goldberg Machines on YouTubeNothing useful really, it displays a secret message after running a number of pointless (but interesting), interconnected elements.Not to do too muchMore technologies and hardware", 
     "project_name": "Gold", 
     "project_tags": [
       "react", 
@@ -2636,7 +2636,7 @@
   }, 
   {
     "hackathon_name": "IC Hack 17", 
-    "project_description": "", 
+    "project_description": "I enjoy old school platformer games and wanted to make one, while learning an open source game engine (Godot), having never used it before.A simple one level prototype game, but with all the fun mechanics, playable with a SNES controller.The little guy really wants to hack the terminal, but a deadly laser is in the way, not to mention bottomless pits! Jump over the pits and teleport past the laser to hack the terminal to complete the level. A bonus collectible is placed at the end of a treacherous jump.I drew all the art assets, then used official and unofficial Godot tutorials and documentation to construct and code the game in GDScript.Godot uses it's own scripting language, GDScript, which I had to learn. Also many of the tutorials are deprecated, so a lot had to be done with trial and error.It works and is fun!How to create a game with the Godot engine.More levels and mechanics!", 
     "project_name": "Retrohack", 
     "project_tags": [], 
     "project_url": "https://devpost.com/software/retrohack"
@@ -2670,7 +2670,7 @@
   }, 
   {
     "hackathon_name": "IC Hack 17", 
-    "project_description": "", 
+    "project_description": "Emotional Rollercoaster was inspired by puns, stress and a desire to take advantage of Microsoft Cognitive Services.Emotional Rollercoaster follows a similar concept to Guitar Hero or Dance Dance Revolution but with a twist: Match your emotions with the given picture emotion to move your car forward. The better your match, the further you go!On the software side, Emotional Rollercoaster was developed in C# by modifying the sample demonstration of near-real-time analysis on frames taken from a live video stream found here linkOn the hardware side, we reverse-engineered a toy car and created a prototype rollercoaster from it.Imagine a dynamic theme park, where rides go faster if they detect that you are not scared enough, or a car that detects the emotion of drivers and passengers for a customized commuting experience. The versatility of Microsoft API makes all of this possible.", 
     "project_name": "Emotional Rollercoaster", 
     "project_tags": [
       "arduino", 
@@ -2779,7 +2779,7 @@
   }, 
   {
     "hackathon_name": "IC Hack 17", 
-    "project_description": "", 
+    "project_description": "As fans of horror movies and games, we wanted to built a new experience using Microsoft Cognitive Services, original artwork and by maximising all senses of the audience and scripting a story. We were really inspired by the artwork of many horror games, thus we decided to use our own original artwork for the game.It is a standalone horror game, utilising sound effects, tension and psychological stimuli to enhance the overall experience of the gamer. This was enhanced using live heartrate data, emotional analysis and the element of surprise.Two of us worked a lot on the artwork, using Adobe Photoshop CS6 (one did mock sketches on pen & paper and the other refined those sketches digitally). The other three members mainly worked on programming, splitting different language requirements for our game.We found doing the artwork incredibly challenging, as we found that it was more time consuming than we originally thought. Additionally, the difficulty of creating a feasible story line was greater than we thought.We managed to make a game on which we received very positive feedback from various other IC Hackathon participants (we managed to scare them). We believe the original drawings we produced for the game were very successful and fit the horror atmosphere of the game. Sound effects were used incredibly well in combination with our graphical effects.We learned how to keep awake and work efficiently under sleep deprivation. We additionally learned how to work more effectively as a team. Our team got on very well and we are happy to work together again in the future. We learned how to modify audio (e.g. from third party sources), how to use Photoshop to enhance our artwork and in particular we learned how to modify voices of our team members.Although we have plenty of user interaction, we want to further enhance this area, by implementing hand gestures to allow users to interact with the game using the video motion API (Microsoft). If the game is longer, we could store data from the user (given the user's permission of course) into a database and perform data analysis from this. We may continue working on Karma and release it to market.", 
     "project_name": "Karma", 
     "project_tags": [
       "jquery", 
@@ -2858,7 +2858,7 @@
   }, 
   {
     "hackathon_name": "IC Hack 17", 
-    "project_description": "", 
+    "project_description": "We found sending files to people just next to you was more complicated than it needed to be! We realised that physical proximity didn't mean digital proximity - two people standing side-by-side might find it easy to talk verbally to one another, but their devices certainly wouldn't. Differing networks and differing operating systems make it difficult for devices that have had no prior communication to exchange data with one another.We wanted file-sharing between devices close to each other to be as seamless as two people talking to each other. This meant no messing around with email, or Google Drive, or anything that required the user to perform multiple steps.With FileBucket, file sharing is as easy as visiting the web-app online. The host, using his mobile phone, scans a QR code on each of the users' screens to form a group for file sharing. Each participant is automatically joined into the same group and is able to upload files to a shared 'bucket', accessible to everyone in the group.Once a sharing session is started, every participant gets access to the files until the host ends the session. Once ended, all files are emptied from the bucket.All without the need of any passwords or prior registration!HTML5 and JavaScript was used for the front-facing portion of the web-app, including QR code generation and drag-and-drop file upload. Ajax was used to exchange data between the client and the server asynchronously. We also used jQuery and Bootstrap.The server was built with Node.js, Express and with MySQL as a backing database. The server manages active connections between clients, and negotiates the establishment of connections to new clients when their unique QR code is scanned. Apart from Ajax requests, we also made use of the Pusher API to provide realtime notifications to the client on the state of the bucket, including whether new files have been delivered or when the bucket has been closed.The scanner application was written in Java, for the Android platform. With the app, we are able to initiate connections between users, remove members and monitor the number of members in the group.We deliberated for some time on the best way to make the experience seamless for the user. We experimented with passphrases, QR codes and even NFC tags to identify the two endpoints of a file transfer.We made file sharing much more effortless and seamless! (We hope!)We learned to use the Pusher API and some members of the team picked up Node.js and Express for server-side development.We want to explore ways to make transferring information even easier for users who use FileBucket often to share files with other people or even across their own devices. We think NFC tags could provide a one-tap way to seamlessly identify devices.", 
     "project_name": "FileBucket", 
     "project_tags": [
       "node.js", 
@@ -2928,7 +2928,7 @@
   }, 
   {
     "hackathon_name": "IC Hack 17", 
-    "project_description": "", 
+    "project_description": "Every member of our team is an international student, so we have a lot of friends abroad and some of us are even in a long distance relationship. We are trying to see each other often, but we have a tight budget and we can't afford to spend a lot of money on flights. Fortunately, we have noticed that it is sometimes cheaper to take advantage of airline sales and get flights to another city rather than fly to see each other at our respective homes. This is awesome because we can not only see each other cheaply but also discover new cities and meet some wonderful people.Meet In The Middle is the only existing web application that allows you to browse flights to any destination from multiple starting points. So if you are here in London and your friend is back in Bratislava, you enter the 2 airports of origin and our web app offers you the selection of the cheapest flights that allow you to meet in different cities around the world. The flights have approximately matching arrival times, so you don't spend too much time on your own.We used skyscanner API to get the flight schedules and their prices. We process this information in our Python backend and show it nicely on frontend build using jquery and bulma css framework. We also use Google Maps API heavily, not only to conveniently plot the flight routes, but also to receive autocomplete or stock pictures to beautify our UI.We were having big problems with rate limiting on Skyscanner API, which is particularly strict on free account. Otherwise we were having trouble limiting the number of queries to Google Maps API, which is terribly slow.We are happy we were able to finish this hack in short time (we only had 16 hours, because we started of with a different idea that proved itself infeasible). Moreover, we feel that our product actually solves a real problem we were having and we are hoping to use it over the next years.We accumulated a bit of spaghetti code during the hackathon, so we need to do some refactoring to make the code maintainable. We are hoping to keep it online for anyone who wants to use it, even if it is only the 5 of us.", 
     "project_name": "Meet In The Middle", 
     "project_tags": [
       "flask", 
@@ -2966,7 +2966,7 @@
   }, 
   {
     "hackathon_name": "IC Hack 17", 
-    "project_description": "", 
+    "project_description": "We decided to build a microbe simulator controlled by neural networks that could fight and consume food to control their environment. Each strain of microbe is given a random colour initially that all of its children receive to show the dominant strain after the simulation.Each microbe has a series of vision inputs which act like ray scanners. They have a 90 degree field of view which acts as the input to the neural network. If an object is seen in the way of the ray scanner then the input assigned to that ray scanner is one, otherwise it is 0.The neural network then evolves through a genetic algorithm we implemented to find and search for food. The output of the neural network is speed and direction of the microbe.All code was implemented by hand in java with no additional libraries apart from use of the built in Java awt rendering library.", 
     "project_name": "Microbe Evolution Arena", 
     "project_tags": [
       "java"
@@ -3118,7 +3118,7 @@
   }, 
   {
     "hackathon_name": "IC Hack 17", 
-    "project_description": "", 
+    "project_description": "Rube Goldberg Machines on YouTubeNothing useful really, it displays a secret message after running a number of pointless (but interesting), interconnected elements.Not to do too muchMore technologies and hardware", 
     "project_name": "Gold", 
     "project_tags": [
       "react", 
@@ -3136,7 +3136,7 @@
   }, 
   {
     "hackathon_name": "IC Hack 17", 
-    "project_description": "", 
+    "project_description": "I enjoy old school platformer games and wanted to make one, while learning an open source game engine (Godot), having never used it before.A simple one level prototype game, but with all the fun mechanics, playable with a SNES controller.The little guy really wants to hack the terminal, but a deadly laser is in the way, not to mention bottomless pits! Jump over the pits and teleport past the laser to hack the terminal to complete the level. A bonus collectible is placed at the end of a treacherous jump.I drew all the art assets, then used official and unofficial Godot tutorials and documentation to construct and code the game in GDScript.Godot uses it's own scripting language, GDScript, which I had to learn. Also many of the tutorials are deprecated, so a lot had to be done with trial and error.It works and is fun!How to create a game with the Godot engine.More levels and mechanics!", 
     "project_name": "Retrohack", 
     "project_tags": [], 
     "project_url": "https://devpost.com/software/retrohack"
@@ -3170,7 +3170,7 @@
   }, 
   {
     "hackathon_name": "IC Hack 17", 
-    "project_description": "", 
+    "project_description": "Emotional Rollercoaster was inspired by puns, stress and a desire to take advantage of Microsoft Cognitive Services.Emotional Rollercoaster follows a similar concept to Guitar Hero or Dance Dance Revolution but with a twist: Match your emotions with the given picture emotion to move your car forward. The better your match, the further you go!On the software side, Emotional Rollercoaster was developed in C# by modifying the sample demonstration of near-real-time analysis on frames taken from a live video stream found here linkOn the hardware side, we reverse-engineered a toy car and created a prototype rollercoaster from it.Imagine a dynamic theme park, where rides go faster if they detect that you are not scared enough, or a car that detects the emotion of drivers and passengers for a customized commuting experience. The versatility of Microsoft API makes all of this possible.", 
     "project_name": "Emotional Rollercoaster", 
     "project_tags": [
       "arduino", 
@@ -3279,7 +3279,7 @@
   }, 
   {
     "hackathon_name": "IC Hack 17", 
-    "project_description": "", 
+    "project_description": "As fans of horror movies and games, we wanted to built a new experience using Microsoft Cognitive Services, original artwork and by maximising all senses of the audience and scripting a story. We were really inspired by the artwork of many horror games, thus we decided to use our own original artwork for the game.It is a standalone horror game, utilising sound effects, tension and psychological stimuli to enhance the overall experience of the gamer. This was enhanced using live heartrate data, emotional analysis and the element of surprise.Two of us worked a lot on the artwork, using Adobe Photoshop CS6 (one did mock sketches on pen & paper and the other refined those sketches digitally). The other three members mainly worked on programming, splitting different language requirements for our game.We found doing the artwork incredibly challenging, as we found that it was more time consuming than we originally thought. Additionally, the difficulty of creating a feasible story line was greater than we thought.We managed to make a game on which we received very positive feedback from various other IC Hackathon participants (we managed to scare them). We believe the original drawings we produced for the game were very successful and fit the horror atmosphere of the game. Sound effects were used incredibly well in combination with our graphical effects.We learned how to keep awake and work efficiently under sleep deprivation. We additionally learned how to work more effectively as a team. Our team got on very well and we are happy to work together again in the future. We learned how to modify audio (e.g. from third party sources), how to use Photoshop to enhance our artwork and in particular we learned how to modify voices of our team members.Although we have plenty of user interaction, we want to further enhance this area, by implementing hand gestures to allow users to interact with the game using the video motion API (Microsoft). If the game is longer, we could store data from the user (given the user's permission of course) into a database and perform data analysis from this. We may continue working on Karma and release it to market.", 
     "project_name": "Karma", 
     "project_tags": [
       "jquery", 
@@ -3349,7 +3349,7 @@
   }, 
   {
     "hackathon_name": "Hack Cambridge Recurse", 
-    "project_description": "", 
+    "project_description": "Have a look at our Google Drive link in the description below.Please have a look at the following git repositories:\n1) https://github.com/jacqueselliott/unityRL\n2) https://github.com/96imranahmed/asyncRL\n3) https://github.com/jacqueselliott/SpatialRLDeep Learning is powerful - Deep RL can solve real complex stochastic problems and we wanted to show a proof of concept that Deep RL can be used with UnityHave a look at the G-Drive. There are a lot of moving cogs (especially with Spatial OS)!Come around to our table and we'll be happy to tell you!SpatialOS - Spent a lot of time trying to get C++ workers to work. Made great headway but couldn't quite make it all compile due to errors with C++ Tensorflow API. Code works in part although integration has been very difficult due to the novel nature of all the software packages we were usingManaged to create a complex Deep-RL architecture that trained successfully on a Unity simulation. We also got the (notoriously difficult) Tensorflow C++ API to work!Deep RL + Spatial OS + Unity is a powerful combination that can be used to train complex AIs in a scalable manner in the future.More research. More layers. (Much) More hyperparameter tuning!But more seriously, we want to dive in more into multi-agent problems with more complex simulations because we believe there is a lot of scope in this area!", 
     "project_name": "SpatialRL", 
     "project_tags": [
       "c#", 
@@ -3382,7 +3382,7 @@
   }, 
   {
     "hackathon_name": "Hack Cambridge Recurse", 
-    "project_description": "", 
+    "project_description": "Decreasing costs of genome sequencing have brought forward a new era for personalised genomics. In 2016, over 1 million individuals had had their genome sequenced, with over 80% of them expressing an interest in taking part in research.Even with this abundance of genomics data, an obstacle remains to translational research: the communication between institutions and research participants is static and often unilateral.We believe that scientific research and progress in medical research should be facilitated by ease of communication between stakeholders without a third-party restricting access to invaluable data. We decided to build a tool that facilitates this communication by giving back content to users that is directly relevant to them in plain language. We hope that clarity and personalisation will sustain participation and accumulation of valuable data over time.eXplore tailors research findings to users' individual genotypes, making research content directly relevant to them. We curate scientific reports that summarise the literature avoiding jargon and making it fully interactive. As users read through the report, they get personalised insights based on their unique DNA. We make it very easy for them to understand where they fit in and what they can learn about themselves from the research they're reading.We use eLife Lens API to display the content in a user-friendly way so that users can browse through content seamlessly. We offer basic science explanations on any term that we think might be difficult to understand for a reader with no background in science and tailor the content to their genotype.We use 23andme API for seamless integration of the genomic data and guarantee safety and privacy through encryption.The idea behind eXplore was to make genetics education and research a lot more interactive. Research is way too dry, so even though people are really interested in learning more, there is a big barrier to entry. As scientists, we loved the way the eLife Lens made scientific articles easier and more intuitive to parse through. We thought that we could re-purpose this open source project to do the same thing for public engagement with science. Instead of annotating a research article with figures and references, we used the right hand panel of the Lens format to display definitions for hard-to-understand concepts. We also added a personal element to the research being presented by taking individual genetic data (drawn from somewhere such as 23andMe) to allow the reader to check whether a particular genetic variant described in the article (e.g. one that makes coriander taste like soap) applies to them.The main challenge was learning some node.js and the specifics of the XML format used by the eLife lens project in order to alter the code base to make this happen!Our team did not have experience working with node.js, so finding my way through the eLife lens API in this new language was a real challenge and kept me locked to the screen well into the night.Taking an open-source project and breaking it down piece by piece to add new features was really exciting. I especially enjoyed learning by breaking by deleting parts of the code to understand what was mission critical and what we could play with.Beyond navigating node.js and having fun with eLife Lens API, we learnt that there is a lot to be done on how to engage users with scientific content. It's something the three of us have felt passionate about for a long time and this hackaton has provided us to opportunity to see that it is indeed possible with a bit of work and motivation!We really want to work on developing our content and functionalities further so that we can share our passion for genetics with a larger audience and help people realise how much they can gain from research.We have learnt a lot during these past two days and feel very excited about developing eXplore further. The next step for us is to integrate user feedback by integrating checkbox that encourage them to verify whether what we think we know about their genotype applies to them. In our example for taste preference, we introduce a mutation that predispose individuals to disliking coriander. We want users to be able to tick a checkbox that says \"That's not true for me\" and gain insights as we go.We also want to develop a chrome extension so that when users click on references in our articles, they can directly open a PubMed or eLife article and see highlighted in blue the key points of the article and in yellow the parts that directly relate to their genotypes, without having to read the entire paper.We also need to develop many more curated reports and we're thinking of making this an open source project for geneticists worldwide to contribute and propose research projects that users can participate to.", 
     "project_name": "eXplore", 
     "project_tags": [
       "python", 
@@ -3404,7 +3404,7 @@
   }, 
   {
     "hackathon_name": "Hack Cambridge Recurse", 
-    "project_description": "", 
+    "project_description": "As we've been to some hackathons by now, we got pretty used to presenting in front of a large audience. However, we're still very far from professional presenters, such as TED talks speakers. Of course, the best feedback you can have on your presentation is the public's reaction. But how can you measure your impact on the public, especially if you are busy managing the stress of giving the talk?Using a camera, you can record the audience while you are giving a presentation, and then upload that video on Cognitive Services web dashboard. It extracts frames every 2 seconds and continuously analyses the public's emotions, plotting them against the presentation audio/video. It calculates the attention of the public for each frame, plotting it so that you are able to see when exactly in your talk there was an attention drop. You can also check if people reacted to what you said in the way you wanted. For example, if you said a joke 20 seconds in, but there was no indication of an increase in happiness around that timestamp, it could mean there is room for improvement.We created a web dashboard in HTML, javascript and CSS, powered by PHP as backed. It processes the upload and then executes three python scripts that split the video in key frames and key audio's, perform the API calls to Microsoft Cognitive services and get the emotion analysis for all the frames and the sentiment analysis for the text, and format everything in a JSON file, while also calculating the attention and other analytics. \nThen, back in the web dashboard, the JSON file is read into multiple javascript functions that plot the results.Biggest challenge was getting opencv to run. There were numerous dependencies to compile from source, not available as binaries, and it did not work from the first time. Also, we ran into problems making it work on Windows, which made testing harder, because on Macs we had problems getting the apache server to work properly.\nAnother big problem was the initial limitation of API calls, which only allowed a maximum of 20 seconds of video. In the morning we received an Azure API key from Microsoft, which allowed us to implement a working solution. Moreover, customising the audio/video player was a problem, and integrating it with the graphs, in order to properly show the data at appropriate times.We completed a fully working MVP which is actually useful as it is, delivering value to the user even in its current form. Because there are a vast amount of possible uses for Cognitive Crowds, we believe it has a strong business potential. We think this is the most important, because once you prove something can be done, half the work is done.We learned a variety of new things, such as image processing with opencv, building complex pipelines and integrating different technologies, data analysis and much more. Most importantly, we realised how useful it can be to analyse the emotions of the people and how many applications it has. If it is used in combination with other technologies such as text analysis, it becomes a very powerful tool that can provide a very accurate constructive feedback.The current implementation is just barely touching the huge potential of this idea. We plan to use it in combination with a variety of regression algorithms to correlate the key phrases of your speech with the public's reactions, so it can automatically suggest what subjects you have to touch in order to inflict a given emotion to your audience. As a business model, we can provide the software as a service to venues/event organisers, in order for them to attract better speakers and to help them improve themselves. Also, it can be provided to university lecturers, helping them with as-objective-as-possible constructive feedback about their classes (everyone knows students usually over-grade their lecturers in the end-of-the-year feedback forms).", 
     "project_name": "Cognitive Crowds", 
     "project_tags": [
       "python", 
@@ -3915,7 +3915,7 @@
   }, 
   {
     "hackathon_name": "Hack Cambridge Recurse", 
-    "project_description": "", 
+    "project_description": "You're in Rome for a day. You want a whistle-stop tour from the best tour guides in Rome without the hassle of booking onto a tour and following a set route. Cue, Go.Record a short audio tour at a location eg \"You're standing outside Kings College Cambridge, it was founded in 1441.......\" Upload the audio with automatic geotaging. When anyone walks past this point they can click on your marker that you left to hear the audio tour.You can see all the available hotels in your area on your Go map. You can leave an audio review if you wish to as well.", 
     "project_name": "Go", 
     "project_tags": [
       "node.js", 
@@ -4060,7 +4060,7 @@
   }, 
   {
     "hackathon_name": "Hack Cambridge Recurse", 
-    "project_description": "", 
+    "project_description": "MC Escher Principles of IllusionLets you explore an immersive worldUsing Blender for 3D modelling and Unity to create the mechanicsMaking our camera shift its perspectiveFinished all the functionalities we plannedNew VR techniques and practicesUpdate it with more levels", 
     "project_name": "The Tower of Babel", 
     "project_tags": [
       "unity", 
@@ -4562,7 +4562,7 @@
   }, 
   {
     "hackathon_name": "Code for the Kingdom Nashville 2017", 
-    "project_description": "", 
+    "project_description": "Web VR, The Contributor (newspaper), FaithUnity (newspaper), Room In The Inn (mission).Educates Youth on Ways to Serve Their Homeless Community.Here's an open-source look at my HTML, JS, and A-Frame Engine:<!DOCTYPE html>< a-animation attribute=\"rotation\" dur=\"10000\" fill=\"forwards\" to=\"0 180 0\" repeat=\"indefinite\">\n  --><!-- NIGHT TIME IMAGE - Donate to Homeless by volunteering with 'Room In The Inn' -->- Doug Old (3/11/2017)</p>\n\n<p>function Contributor(){ \n    /* Variable for &#39;Contributor Vendors&#39; element <em>/\n    var Vendors = document.getElementById(&quot;CONTRIBUTOR&quot;);\n    Vendors.style.visibility=&#39;visible&#39;;\n     /</em> Variable for the &#39;Close&#39; [X] element */\n    var X = document.getElementById(&quot;Close&quot;);\n    X.style.visibility=&#39;visible&#39;;\n    }</p>\n<pre class=\"language-nolang\"><code>function RITI(){\n/* Variable for &#39;Room in the Inn&#39; element */\nvar RITI = document.getElementById(&#39;RITI&#39;);\nRITI.style.visibility=&#39;visible&#39;; \n/* Variable for the &#39;Close&#39; [X] element */\nvar X = document.getElementById(&quot;Close&quot;);\nX.style.visibility=&#39;visible&#39;;\n}\n\nfunction CloseAll(){ \n/* Variable for &#39;Contributor Vendors&#39; element */\nvar Vendors = document.getElementById(&quot;CONTRIBUTOR&quot;);\nVendors.style.visibility=&#39;hidden&#39;;\n/* Variable for the &#39;Close&#39; [X] element */\nvar X = document.getElementById(&quot;Close&quot;);\nX.style.visibility=&#39;hidden&#39;;\n/* Variable for &#39;Room in the Inn&#39; element */\nvar RITI = document.getElementById(&#39;RITI&#39;);\nRITI.style.visibility=&#39;hidden&#39;; \n}\n</code></pre>\n<p>The A-Frame Engine only runs on Firefox web browsers.Developing Ministry App for Youth Groups, and Giving Honor to Veteran David HernandezA-Frame Engines allow user interaction with inline JS Event Handlers.Once the webpage is published, our team hopes churches will enjoy using it as an online resource for Youth Ministry.", 
     "project_name": "Empower Heroes", 
     "project_tags": [
       "html", 
@@ -5025,7 +5025,7 @@
   }, 
   {
     "hackathon_name": "Porticode", 
-    "project_description": "", 
+    "project_description": "While looking through the hardware that MLH had to offer at the hackathon, we found the Leap Motion. After playing around with the demo functions for a while, we could see that it was an incredibly versatile piece of technology. Inspired by its ability to so closely replicate games such as Sevens and Squash, we wanted to create a virtual version. Because of the sci-fi like aspects of the concept, we decided to go with a space theme for the game.Originally we wanted to create a web app, using Python or Javascript. However, we soon discovered numerous difficulties associated with accessing the data from the Leap Motion over the web. So instead, we decided to use Unity to develop and offline game that could connect straight to the Leap Motion. None of us had ever used Unity before, so we had quite a lot of trouble getting anything off the ground at first. Eventually, we actually started to figure things out, and before any of us knew it, we had a (semi) functioning space-based squash game. Just having the game wasn't enough, I mean, how could anyone play it if it was offline?Well, from our previous attempts to make a web app, we already had some semblance of a web page on which we would have uploaded our game. We decided that instead of abandoning all of that work, we would instead convert it into a landing page, on which people could download the game, as well as see a trailer and behind the scenes photos from our work on Quantum-Leap.Overall, we really had an amazing time working together to create this fun little project. We all learned a whole load of stuff that we would never have really had the chance to even see, much less use and explore for a whole 24 hours - to top it all off, we actually managed to achieve, not one, but 2 different finished products that we are all very proud of.Table 1.", 
     "project_name": "quantum-leap", 
     "project_tags": [
       "html", 
@@ -5116,7 +5116,7 @@
   }, 
   {
     "hackathon_name": "#OpenDataHack @ECMWF - Beyond weather: explore creative uses of open data", 
-    "project_description": "", 
+    "project_description": "Are animals better at weather forecasting than human beings?Study the impact of weather precipitation on animal migration - Kruger buffalo.\nWe extracted data of landcover, migration of buffaloes and precipitation, then used QGIS to visualise them and tried to see the relationship of these information.QGISExtracting netcdf datasets from ECMWF server directly and finding the usage of netcdf files.\nUsing GIS to visualise.Learned how to use GISQGIS\nHow to extract data from ECMWF\nHaving funDevelop more details and consider more attributes that may influence the migration of animals.\nAnalyse the weather and landcover to predict the optimal route of migration and help animals move to prevent from extinction.\nUse the research on different areas, e.g. tourism, animal protection.", 
     "project_name": "African Animals Migration", 
     "project_tags": [], 
     "project_url": "https://devpost.com/software/african-animals-migration-ikupcd"
@@ -5130,7 +5130,7 @@
   }, 
   {
     "hackathon_name": "#OpenDataHack @ECMWF - Beyond weather: explore creative uses of open data", 
-    "project_description": "", 
+    "project_description": "Are animals better at weather forecasting than human beings?Study the impact of weather precipitation on animal migration - Kruger buffalo.\nWe extracted data of landcover, migration of buffaloes and precipitation, then used QGIS to visualise them and tried to see the relationship of these information.QGISExtracting netcdf datasets from ECMWF server directly and finding the usage of netcdf files.\nUsing GIS to visualise.Learned how to use GISQGIS\nHow to extract data from ECMWF\nHaving funDevelop more details and consider more attributes that may influence the migration of animals.\nAnalyse the weather and landcover to predict the optimal route of migration and help animals move to prevent from extinction.\nUse the research on different areas, e.g. tourism, animal protection.", 
     "project_name": "African Animals Migration", 
     "project_tags": [], 
     "project_url": "https://devpost.com/software/african-animals-migration"
@@ -5537,7 +5537,7 @@
   }, 
   {
     "hackathon_name": "HackNotts 2016", 
-    "project_description": "", 
+    "project_description": "We saw what you could do with Alexa and seeing the talk by Capital One made it obvious to us. We wanted to see the future and the only way to do that is by inventing it.We built a skill for Alexa using Python as our backend and flask-ask to interact with and create the skill for Alexa. You can call commands such as \"Alexa, show me my balance in Retirement\", \"Alexa ask banking to show me my financial report\", \"Alexa ask banking to remind me that I owe John 10\", and \"Alexa ask banking to buy me a chicken using account Credit Card\"We built this over a 24 hour hackathon using Flask-ask, Python, Json and Requests. \nArron and I worked on the backend side using the Capital One API. Ollie and Chris worked on the Alexa front end.The Alexa API regularly timed out due to poor wifi or other issues. To overcome this we set up a mobile hotspot to circumnavigate the bad internet.Making Alexa understand and respond to requests made by humans. This was one of the more challenging aspects, despite the Alexa API supporting this. Because of the issues we had with the API it was difficult for us to develop a basic working Alexa application fast.We learned how to use object orientated design within Python and how to effectively work with the Alexa and Capital One API.Since Capital One only have a hackathon API we might not be able to develop much on it, however, the future of banking is clearly to bring it into the home and to use IOT devices such as Amazon Echo/Dot and we are glad to have been at the edge of technology.Thanks to some good comments from Capital One, we will be continuing this project.", 
     "project_name": "bank-of-alexa", 
     "project_tags": [
       "python", 
@@ -5596,7 +5596,7 @@
   }, 
   {
     "hackathon_name": "OxfordHack", 
-    "project_description": "", 
+    "project_description": "Lots of people are creative enough to write awesome lyrics, but they lack the musical knowledge to create songs with them. What if we had a program to generate a good song depending on the text input?\nThat's exactly what AutoDJ does.Using Microsoft's Text Analysis API from Cognitive Services, we analyse the key-phrases of the input text given by the user. We also look if it is happy / sad, using the sentiment analysis feature of the API. \nWe compare the resulted features against a large collection of song lyrics, using the cosine similarity measure. The first few best matches are then fed into a Restricted Boltzmann Machine algorithm that generates a new song from them.First we downloaded a large number of popular songs from YouTube (the instrumentals only) and their lyrics separately from different websites. \nThen we have a script that calls Microsoft's Text Analysis API and gets the key phrases for the user input, and compares it using the cosine similarity measure with the key phrases from all the lyrics downloaded.\nWe take the instrumental songs of the best matches (encoded as .mid) and feed them into the neural network that generates a new .mid with similar sounding.It's very hard to generate new music, as this is a cutting-edge current research topic.\nIt is also very hard (and thus unreliable) to convert mp3s into midis. We had some troubles doing that, and even now it's not too accurate.\nOf course we also had the usual issues with permissions, dependencies, etc., but who doesn't have those ?Actually managing to complete a pipeline user -> algorithm -> result -> user.Quite a lot. Mostly about neural networks and language processing.Some extra features could be implemented such as improving the accuracy of similarity, by taking more details into account. Also we could have more than just happy/sad sentiments, and maybe even analyse the main topic of the text.", 
     "project_name": "AutoDJ", 
     "project_tags": [
       "python", 
@@ -5612,7 +5612,7 @@
   }, 
   {
     "hackathon_name": "OxfordHack", 
-    "project_description": "", 
+    "project_description": "We're a team formed of CS students, a mathematician and an engineer. We have some very mixed skill sets, and so wanted to do something which everybody could work on. We had the idea of making some kind of catapult controlled by an Arduino, and that evolved into this.Players sit around the gun in a semi-circle. A camera moves back and forth taking photos of the players. If it detects that a player is laughing or looking too happy, the gun points towards them and shoots them!Works best when paired with a funny video playing in the centre of the players (thus the name \"Don't Laugh\").We have a Python script running which sends serial signals to an Arduino. The Arduino then moves the servos on which the camera and gun are mounted, as well as the servo used to pull the trigger. It uses OpenCV to take photos from a webcam mounted on a servo and the Microsoft Cognitive Services emotion API.When a photo is taken from the webcam, it's passed to the emotion API which returns a value for how happy the players are. If a particular player is looking too happy, the Python script tells the Arduino to move the gun and then shoot them!OpenCV is hard, especially with Python 3. It was also difficult to mount the servos on an assembly of some kind. We ended up using a beer bottle!It works! And the accuracy is actually pretty good. If there's one person in the group that's laughing, the gun will aim at that person and shoot.The gun also makes fake movements, just to freak the players out - you really don't know if it's going to hit you or not!All of us learned something different. Some learned Python, others OpenCV, and other Arduino programming.We're planning to develop more mini games and add more modes to the game.", 
     "project_name": "Don't Laugh", 
     "project_tags": [
       "python", 
@@ -5661,7 +5661,7 @@
   }, 
   {
     "hackathon_name": "OxfordHack", 
-    "project_description": "", 
+    "project_description": "The moon has always been inspirational to people at all ages, but is always too far away and too distant. It's magnificent, but looking at it, I felt kind of sad, and in between this sadness and admiration I started planing this experience.By reading the thoughts of the moon and the stars around, we will be able to see how lonely the moon feels, and how at the end is revealed that our perception is a key factor, and that we should need to learn to view things differently to understand better, and realize that we can be so hard on ourself and so wrong without reason.With this experience, maybe with an improved version will be better, I also expect people to understand other persons feelings, fomenting the empathy by understanding the moon, which is a character that everyone know and no one have bad feelings against, and with this experience open minds to what other people can feel, and trying to drive to a place where expressing this feelings or emotions is more normal and accepted than as in the current world we live nowadays.I coded it all in C++ from scratch. Used the SFML libraries to help on thinks like the audio, or the window management, but mostly coded all the game by myself from scratch.I arrived at the hackathon late after taking a taxi, bus, flight, another bus (for 4 hours), and some good walking, and started coding right away. It's been exhausting and haven't had time to iterate and improve the game.Having it finished. With less history and features than I would have liked to add, but finished.LAST MINUTE UPDATE, BUILDS FOR ANDROID VERSION ARE WORKING!!!That I love making games, and that may help delivering stories.It will disappear on the horizon, and came again every night, alone, but finally knowing that all the little dots in the sky love, appreciate and need her. \nOn my side I would like to deliver the original complete history that I intended to deliver adding more content to this experience and making it grow bigger.", 
     "project_name": "Moon", 
     "project_tags": [
       "c++", 
@@ -5842,7 +5842,7 @@
   }, 
   {
     "hackathon_name": "OxfordHack", 
-    "project_description": "", 
+    "project_description": "We wanted to do a big multiplayer game, where everyone could participate, and as this hackathon was inspired in the Harry Potter world, we finally did a competitive multiplayer where the public can support their favourite team too helping them winning (or making the others to lose!)You just need to register for a team and play with three more people of other houses. If you are the last alive, you will win your round and you will bring glory to your house. \nThe game will have as well a final round where only the best player of each house will be able to demonstrate their abilities in a last, amazing combat, that will be the last to decide which is the best house among the others. Will it be Gryffindor? Hufflepuff? Ravenclaw? or Slytherin?We built it with JS (nodeJS, phaserJS, ...) in order to be able to play it online on canvas, with our mobile phones. The phones will be our gamepads and the server will have the only screen where all the action will take place.We did not decide how to finally do this game until we had few hours left, so we actually had not a lot of time to build everything. Our project was really ambicious, and even if we did not succeed in finish everything, we are happy with the final result (it's really funny!)We did a lot of team work, we did not sleep a lot and we had fun designing, programming and playing the game. It was totally worth it!We learned more about JS and multiplayer online.We want to finish adding all our ideas and after it, we will see :)", 
     "project_name": "PotterSmash", 
     "project_tags": [
       "phaser.js", 
@@ -6024,7 +6024,7 @@
   }, 
   {
     "hackathon_name": "OxfordHack", 
-    "project_description": "", 
+    "project_description": "Since this is a Harry Potter themed hackathon, I felt the need to create something matching the theme that allows us muggles to get a taste of what it's like to be a wizard.When the user moves the wand, the 7 LEDs change colour and pattern depending on it's orientation. Requires some enthusiatic acting and imagination.This uses an Arduino Uno, an accelerometer, 3 breadboards, 7 neopixels and a portable phone charger. I used code from an existing project featuring a wand that controls a tv, and edited it to fit the LEDs and the effects I wanted. Accelerometers are notoriously inconsistent so it took some time to get the numbers right- they were usually very different than the original code.Initially had some issues getting the LEDs going before realising I used the wrong resistor (took far too long to realise). Getting the values right took time. The main issue I am still dealing with is the consistency of the accelerometer- it sometimes gives off random numbers as feedback, which in turn calls functions at the wrong time. Because of this I had to remove a (very pretty!) rainbow function, as it was getting called randomly.Proud I got it all done in a reasonable time before the deadline! It's not my most ambitious project but it was a bit of fun.I've never used an accelerometer before so I learned how the values are read and used. I also learned a bit more about the neopixel library- mainly that it will be very difficult for me to write my own patterns for my LEDs.I would have loved to have taken this off the breadboard and onto an actual wand, but due to time and soldering constraints that was not to be. It would definitely be fun to do that in the future.", 
     "project_name": "Hacking is Magic", 
     "project_tags": [
       "arduino"
@@ -6271,7 +6271,7 @@
   }, 
   {
     "hackathon_name": "OxfordHack", 
-    "project_description": "", 
+    "project_description": "Since this is a Harry Potter themed hackathon, I felt the need to create something matching the theme that allows us muggles to get a taste of what it's like to be a wizard.When the user moves the wand, the 7 LEDs change colour and pattern depending on it's orientation. Requires some enthusiatic acting and imagination.This uses an Arduino Uno, an accelerometer, 3 breadboards, 7 neopixels and a portable phone charger. I used code from an existing project featuring a wand that controls a tv, and edited it to fit the LEDs and the effects I wanted. Accelerometers are notoriously inconsistent so it took some time to get the numbers right- they were usually very different than the original code.Initially had some issues getting the LEDs going before realising I used the wrong resistor (took far too long to realise). Getting the values right took time. The main issue I am still dealing with is the consistency of the accelerometer- it sometimes gives off random numbers as feedback, which in turn calls functions at the wrong time. Because of this I had to remove a (very pretty!) rainbow function, as it was getting called randomly.Proud I got it all done in a reasonable time before the deadline! It's not my most ambitious project but it was a bit of fun.I've never used an accelerometer before so I learned how the values are read and used. I also learned a bit more about the neopixel library- mainly that it will be very difficult for me to write my own patterns for my LEDs.I would have loved to have taken this off the breadboard and onto an actual wand, but due to time and soldering constraints that was not to be. It would definitely be fun to do that in the future.", 
     "project_name": "Hacking is Magic", 
     "project_tags": [
       "arduino"
@@ -6408,7 +6408,7 @@
   }, 
   {
     "hackathon_name": "GreatUniHack Fall 2016", 
-    "project_description": "", 
+    "project_description": "We have all had thoughts of what it would be like to travel within the internet. Wimphony, a combination of the words wifi and symphony, is an application that can bring us one step closer to that dream.In reality we just wanted to build something cool and representing wi-fi signals sounded like it fit the bill.Wimphony takes an Android phone and uses the built in wi-fi antenna to scan for networks around and their signal strength. It then generates a piece of music for each wi-fi network and places them in a virtual world at a location relative to their real world position. You can then explore this virtual world using a Google cardboard, with spacial perception of the sounds and by extension the wi-fi networks.We divided the building of the app into an Android component, music generation, back-end plumbing and VR. The music generation and back-end plumbing were done in Python with Flask sitting on top of it. The VR component was written using Unity and C#.We chose this project explicitly because we would all be working in areas that we were not really comfortable in. This meant that we ran into our fair share of problems along the way, but also that we learnt a bunch whilst doing so.Actually getting music generated from a wi-fi network was a big moment for us, as was placing this sound into the virtual world as a point source. More importantly however, every member of the team pushed themselves to learn many new things.Getting the app fully integrated so that there was end-to-end data flow would be the next step. After that, the codebase would need to be secured if it was to sit on the public internet for any time whatsoever. We could also improve and diversify the music generation algorithm, for example including different genres of music or using different instrument synthesisers/polyphonic tunes.", 
     "project_name": "Wimphony", 
     "project_tags": [
       "android", 
@@ -6593,7 +6593,7 @@
   }, 
   {
     "hackathon_name": "GreatUniHack Fall 2016", 
-    "project_description": "", 
+    "project_description": "We saw a problem with how investor networking is done, we think we can streamline the process and even add a fun element to it. We saw the potential with current trends towards gamification and social connectivity and thought we could add a business related spin to it.Our software allows users to create projects and certified investors can register interest, and send messages to the entrepreneurs. They can do this through a web app, android and ios apps.We designed and built the API using a combination of technologies, making extensive use of NoSQL and JSON Web Tokens for cutting edge security.Because our data is inherently relational, using a non-relational database was always going to be a challenge (not least because most of our background is in msSQL and MySQL),  we thought we'd give a different technology a chance and are very happy with the results.Setting up the various build configurations for Android and iOS was a major challenge, as because we were using the very latest (unstable beta technology) we had to solve these problems without reliable documentation and questionable forum posts. However, we did manage to do it and managed to create our Minimum Viable Product.Getting the messaging system working, which is a piece of core functionality and makes the app a viable piece of digital equipment for investors and creators alike.Producing apps for multiple platforms through up lots of pretty specific edge cases and challenges, and to finally get it working on our devices was great to see.Adding more functionality: such as location based investment opportunities, image uploads and 'sliding' cards when dragged.\nWe think this idea has the potential to be successful and in the future we could implement microtransactions for investors wishing to use this service to expand their portfolio.", 
     "project_name": "Jump Leads", 
     "project_tags": [
       "express.js", 
@@ -6665,7 +6665,7 @@
   }, 
   {
     "hackathon_name": "GreatUniHack Fall 2016", 
-    "project_description": "", 
+    "project_description": "How many times you were playing a good game and after spending a few hours you were greeted by a screen saying game over? And after spending a decent amount of money there is nothing what you can do with your Blu-ray disc, right? We have a solution to this problem, a recurrent neural network that is able to generate new levels for your game!Based on experience, a set of Mario Bros maps, the network generates new levels. The only thing we require from you is a length of a map as well as the crazy factor. Cause why keep stuff boring?We built this using Keras, a python library for deep learning networks. We first took maps available online, turned them into ASCII representation using OpenCV and then feed the text as the training set for the network. After generating a new ASCII map we turned them again to Javascript format, which is understandable by the version of Mario we are using.At the beginning we were trying to build a network able playing Mario itself, unfortunately we had to leave this one, since it very hard to setup the feedback step. We focused on the generating new maps only.It is working!A better understanding of recurrent neural networks. <3", 
     "project_name": "MarioNet", 
     "project_tags": [
       "python", 
@@ -6689,7 +6689,7 @@
   }, 
   {
     "hackathon_name": "GreatUniHack Fall 2016", 
-    "project_description": "", 
+    "project_description": "Hitchhiker's Guide to the Galaxy and many other cool text adventures. We were\nalso very excited to work with Alexa following our previous failed attempts with\nother hardware such as the Sigfox board and Estimote - after attempting to make\na device-based hide-and-seek game to no avail, we continued to explore ideas\ninvolving different types of games, including a reaction-based buzzer game,\nbut the idea of a text-based game in Alexa quickly won it for us.Alexa offers one text-based adventure game dictated between you and your Amazon Echo device, based on our experiences at GreatUniHack 2016, albeit with a little more gruesome death from lack of self-care...if you don't play it right.Initially we experimented with some Bluetooth, GPS and NFC devices with ideas such as a hide-and-seek game and access control for the workplace with some helpful widgets. However, hardware failed us, and we were not able to carry out these ideas, so after a fairly speedy brainstorm we chose to rely on the Amazon Echo for text-based games. The statistics for this are viewable via a web frontend powered by jQuery and PHP, and all information is also retrievable via the Echo, which itself recognises users entered into a database on the website.The first six and a half hours were pretty much wasted attempting to get the Estimote, Arduino and Sigfox devices to work, though after about half an hour of brainstorming we quickly cemented our next idea. A lot of challenges required close cohesion between team members, such as the implementation of PHP and databases in the otherwise-jQuery website.I (Simon) am proud that I've managed to hold my own in what seems to be a set of far more experienced peers, and I'm glad to have both made a positive contribution that has impressed my team and even learnt a little bit for myself.I (Simon) learned some jQuery and an interesting little plugin for it, a terminal emulator by the name of ptty. Also, since this was my first hackathon, I also picked up on some tips and put into practice a few hints I'd already learned from articles, the best of which being to never stop until you feel ready to basically just pass out. Within reason, of course.We could update it to make it more stable (though error handling is something we're glad to say Michael implemented very late in the hackathon), and we could also devise more games for it.", 
     "project_name": "Game Master", 
     "project_tags": [
       "html", 
@@ -6741,7 +6741,7 @@
   }, 
   {
     "hackathon_name": "GreatUniHack Fall 2016", 
-    "project_description": "", 
+    "project_description": "How many times you were playing a good game and after spending a few hours you were greeted by a screen saying game over? And after spending a decent amount of money there is nothing what you can do with your Blu-ray disc, right? We have a solution to this problem, a recurrent neural network that is able to generate new levels for your game!Based on experience, a set of Mario Bros maps, the network generates new levels. The only thing we require from you is a length of a map as well as the crazy factor. Cause why keep stuff boring?We built this using Keras, a python library for deep learning networks. We first took maps available online, turned them into ASCII representation using OpenCV and then feed the text as the training set for the network. After generating a new ASCII map we turned them again to Javascript format, which is understandable by the version of Mario we are using.At the beginning we were trying to build a network able playing Mario itself, unfortunately we had to leave this one, since it very hard to setup the feedback step. We focused on the generating new maps only.It is working!A better understanding of recurrent neural networks. <3", 
     "project_name": "MarioNet", 
     "project_tags": [
       "python", 
@@ -6765,7 +6765,7 @@
   }, 
   {
     "hackathon_name": "GreatUniHack Fall 2016", 
-    "project_description": "", 
+    "project_description": "Hitchhiker's Guide to the Galaxy and many other cool text adventures. We were\nalso very excited to work with Alexa following our previous failed attempts with\nother hardware such as the Sigfox board and Estimote - after attempting to make\na device-based hide-and-seek game to no avail, we continued to explore ideas\ninvolving different types of games, including a reaction-based buzzer game,\nbut the idea of a text-based game in Alexa quickly won it for us.Alexa offers one text-based adventure game dictated between you and your Amazon Echo device, based on our experiences at GreatUniHack 2016, albeit with a little more gruesome death from lack of self-care...if you don't play it right.Initially we experimented with some Bluetooth, GPS and NFC devices with ideas such as a hide-and-seek game and access control for the workplace with some helpful widgets. However, hardware failed us, and we were not able to carry out these ideas, so after a fairly speedy brainstorm we chose to rely on the Amazon Echo for text-based games. The statistics for this are viewable via a web frontend powered by jQuery and PHP, and all information is also retrievable via the Echo, which itself recognises users entered into a database on the website.The first six and a half hours were pretty much wasted attempting to get the Estimote, Arduino and Sigfox devices to work, though after about half an hour of brainstorming we quickly cemented our next idea. A lot of challenges required close cohesion between team members, such as the implementation of PHP and databases in the otherwise-jQuery website.I (Simon) am proud that I've managed to hold my own in what seems to be a set of far more experienced peers, and I'm glad to have both made a positive contribution that has impressed my team and even learnt a little bit for myself.I (Simon) learned some jQuery and an interesting little plugin for it, a terminal emulator by the name of ptty. Also, since this was my first hackathon, I also picked up on some tips and put into practice a few hints I'd already learned from articles, the best of which being to never stop until you feel ready to basically just pass out. Within reason, of course.We could update it to make it more stable (though error handling is something we're glad to say Michael implemented very late in the hackathon), and we could also devise more games for it.", 
     "project_name": "Game Master", 
     "project_tags": [
       "html", 
@@ -7240,7 +7240,7 @@
   }, 
   {
     "hackathon_name": "CUES Hackathon 2016 Powered by ARM", 
-    "project_description": "", 
+    "project_description": "The accelerometer on the microbit gives a 3D direction, so you can use it to type on a virtual keyboard (like typing with a mouse when you don't have a keyboard)! I was trying to build a calculator but I found immediately that it can do much more: literally accepting and running Python codes in real time inside it. For presentation purpose, I use radio transmissions to sync its display with another microbit so that I only need to show the display microbit under the projector.Different directions represent different letters, numbers and symbols. Pressing Button A confirms a character input. Pressing Button B runs the codes.The accelerometer is quite sensitive so I had to redesign a keyboard layout to improve input speed and accuracy.It's pure coding and everyone can download the codes to their microbits, like a mobile app. Isn't it cool?", 
     "project_name": "Gravitational keyboard with Python interactive shell", 
     "project_tags": [
       "python"
@@ -7772,7 +7772,7 @@
   }, 
   {
     "hackathon_name": "HackSheffield 2.0", 
-    "project_description": "", 
+    "project_description": "We took inspiration from ourselves in the sense that we are very lazy.Allows you to lazily create websites with your voice.Uses Amazon Alexa, Amazon Web Services, Lamda and nodeJSGetting used to how Alexa works as well as Amazon Web Services as these were technologies that were new to us.Having an MVP by the finish time\nHaving extra time to add in advanced features such as Bootstrap snippets to add in Jumbotrons and NavbarsMore lazy features\nMore intents allowing easier web developmenthttp://bananaeatingcyb.org/ \n(Banana Eating Cyborg)", 
     "project_name": "Lazy Web Dev", 
     "project_tags": [
       "amazon-alexa", 
@@ -7796,7 +7796,7 @@
   }, 
   {
     "hackathon_name": "HackSheffield 2.0", 
-    "project_description": "", 
+    "project_description": "Ever thought your laptop was too far away while you're sitting in bed while you're meant to be looking after your Docker containers? Fear no more! You can manage your containers from the safety of your bed.This app allows you to create, start and stop containers while also allowing you to check the status of the containers, how many are running and if the Docker Hub is up.We used an AWS Lambda to facilitate the communication between the Alexa device and the Docker API that we developed. The Lambda converts the data received from the Docker API to nice messages to play back to the user. There is a conversational element of the app is accomplished by using the session variables in the Alexa Skills Kit.The Docker API was built upon the official Docker Remote API (and Node bindings) with some changes to combine some results and to reduce network overhead by removing unneeded variables. The API runs on a server and the communication was done over https (with a Let's Encrypt certificate).We attempted to create an infrastructure to allow you to log in to the Alexa Skills app to select the server you wanted to administrate. Due to the complexity and time restraints, we could not complete this. This means the server details have to be hardcoded in to the Lambda.We had issues when creating and starting the containers as Alexa would time out. We worked around this by splitting the creating and starting of the containers in to two steps that can be stringed together with a conversational like command. (\"create a ... container called ... \" then \"start it\")The whole thing! It's three of the team members first Hackathon and the fourth's second, so it was a great learning experience to complete a working app. We're most proud of the contextual awareness when starting a container.Many of the tools/APIs we used were new to us. We used AWS Lambdas, Alexa Skills Kit and the Docker Remote API for the first time. The project provided a great refresher to JavaScript and Node JS which we only had limited experience with.We hope to add the ability to log in to the app via the Alexa Skills app to select the server you will be administrating. A long term goal would be to add the ability to administrate swarms/clusters.", 
     "project_name": "Docker Assistant", 
     "project_tags": [
       "alexa", 
@@ -7875,7 +7875,7 @@
   }, 
   {
     "hackathon_name": "HackSheffield 2.0", 
-    "project_description": "", 
+    "project_description": "We've both wasted too much time trying to fool the great akinator. From a smart-ass genie, a smart-ass AI companion seems like the next logical step.Think of someone! Anyone! Alexa will ask you yes/no questions and (hopefully) guess correctly.(Top Tip: If you don't know an answer you can say: \"I don't know\", \"Probably\" or \"Probably not\")Node.js with the alexa-sdk package. Interfacing directly with akinator.com API endpoints.Possibly the first time we've actually finished a hackathon project.\nWith time to spare too!I'll think about that when I'm less sleep deprivedWe'll publish it as a public alexa skill soon", 
     "project_name": "Hackinator", 
     "project_tags": [
       "node.js"
@@ -7943,7 +7943,7 @@
   }, 
   {
     "hackathon_name": "HackSheffield 2.0", 
-    "project_description": "", 
+    "project_description": "Alexa is a powerful platform of natural language processing, it has huge potential to free our cerativity, and bring the spark of thinking by talking to us. For engineers and scientists, maths is one of the most important and frequent request we would like to send to alexa.It answers all mathmatical questions and everything which has been stored in the knowledgebaseIt was built with the Amazon Web Service Lamda and incoorperate with Wolfram Alpha API in python. Amazon web service and Alexa skill kit is the backbone of the service.", 
     "project_name": "Calculator Alpha", 
     "project_tags": [
       "amazon-alexa", 
@@ -8086,7 +8086,7 @@
   }, 
   {
     "hackathon_name": "HackSheffield 2.0", 
-    "project_description": "", 
+    "project_description": "Listening to Alexa we started to think about her potential and tried to come up with a problem for her to solve. We thought back to a couple of years ago for us when we were trying to decide what degree to apply to at University. This proved to be a very difficult choice, as it is for many, and we thought Alexa might be able to help people with that choice in the future.The Degree Finder asks you a set of questions and tries to understand what you enjoy and your personality. Through these inferences Alexa suggests a degree she thinks will be right for you!We used a \"decision-tree\" template to begin to understand how Alexa worked and built from it a small program in javascript that has a total of 16 different Degrees at the end of it.Understanding Alexa was our biggest challenge. We tried a few different ideas and simply could not get her to do what we wanted. Once we finally got an example program working we found an idea that we could adapt to that program and worked from there.Being able to solve our problems that had us stuck for around 6 hours and create a working program, even a simple one, that actually runs on Alexa. We are also very proud of our idea because we think it could be something that could make an impact with future students if developed further.This was our first hackathon so we learned what is fully involved in one and how much fun it can be. We also learned a bit of javascript from messing around with the code and how to deal with problems in a stressful situation.If it could be expanded to over many more degrees and ask many more specific questions we believe it could go on to help future students make their decision an easier one in the future.", 
     "project_name": "The Degree Finder", 
     "project_tags": [
       "javascript"
@@ -8126,7 +8126,7 @@
   }, 
   {
     "hackathon_name": "HackSheffield 2.0", 
-    "project_description": "", 
+    "project_description": "Bots are often looked upon as manifestations of silicon devices that 'mimic' human characteristics. A characteristic a lot of assistants/bots lack is the ability to empathise with human emotions. The idea was to be able to comprehend emotion and help improve it for the better/be a little mischievous.Alexa asks you how you are feeling and based on your reply, shares a joke/song/anecdote/image/story with you, which 'ideally' should change your mood from the one you are in, to a target mood, like happiness or cheerfulness. It does so by picking curated data from popular websites such as Reddit, Quora and 9GAG. Using these websites keeps the content relevant and fresh.I built it using AWS and Node.jsPlaying an audio file returned an error of endpoint not being found. So I had to fall back on textual music suggestions. Moreover, the documentation on sending cards to the amazon app was relatively vague, hence making it difficult to implement an image send.Getting AWS to work. Earlier, it turned out to be such a pain, that my team had to disband. implementing a random sort function with zero bias, making each relevant content suggestion equally possible of being showed to the user.Javascript promises and callback, AWS - Lambda Function, running tests using Mocha and Chai, using request-promiseI intend to make moodbot detect various variations of the same emotion so that it can map to relevant content. I also intend to make moodbot play music samples and send memes to the user's phone to make them smile/amuse them. Given sufficient time and skills, I think getting it to detect subtle language nuances would be another goal, thereby making it provide relevant content without the user explicitly instructing it to.", 
     "project_name": "moodbot", 
     "project_tags": [
       "node.js", 
@@ -8176,7 +8176,7 @@
   }, 
   {
     "hackathon_name": "HackSheffield 2.0", 
-    "project_description": "", 
+    "project_description": "Listening to Alexa we started to think about her potential and tried to come up with a problem for her to solve. We thought back to a couple of years ago for us when we were trying to decide what degree to apply to at University. This proved to be a very difficult choice, as it is for many, and we thought Alexa might be able to help people with that choice in the future.The Degree Finder asks you a set of questions and tries to understand what you enjoy and your personality. Through these inferences Alexa suggests a degree she thinks will be right for you!We used a \"decision-tree\" template to begin to understand how Alexa worked and built from it a small program in javascript that has a total of 16 different Degrees at the end of it.Understanding Alexa was our biggest challenge. We tried a few different ideas and simply could not get her to do what we wanted. Once we finally got an example program working we found an idea that we could adapt to that program and worked from there.Being able to solve our problems that had us stuck for around 6 hours and create a working program, even a simple one, that actually runs on Alexa. We are also very proud of our idea because we think it could be something that could make an impact with future students if developed further.This was our first hackathon so we learned what is fully involved in one and how much fun it can be. We also learned a bit of javascript from messing around with the code and how to deal with problems in a stressful situation.If it could be expanded to over many more degrees and ask many more specific questions we believe it could go on to help future students make their decision an easier one in the future.", 
     "project_name": "The Degree Finder", 
     "project_tags": [
       "javascript"
@@ -8216,7 +8216,7 @@
   }, 
   {
     "hackathon_name": "HackSheffield 2.0", 
-    "project_description": "", 
+    "project_description": "Bots are often looked upon as manifestations of silicon devices that 'mimic' human characteristics. A characteristic a lot of assistants/bots lack is the ability to empathise with human emotions. The idea was to be able to comprehend emotion and help improve it for the better/be a little mischievous.Alexa asks you how you are feeling and based on your reply, shares a joke/song/anecdote/image/story with you, which 'ideally' should change your mood from the one you are in, to a target mood, like happiness or cheerfulness. It does so by picking curated data from popular websites such as Reddit, Quora and 9GAG. Using these websites keeps the content relevant and fresh.I built it using AWS and Node.jsPlaying an audio file returned an error of endpoint not being found. So I had to fall back on textual music suggestions. Moreover, the documentation on sending cards to the amazon app was relatively vague, hence making it difficult to implement an image send.Getting AWS to work. Earlier, it turned out to be such a pain, that my team had to disband. implementing a random sort function with zero bias, making each relevant content suggestion equally possible of being showed to the user.Javascript promises and callback, AWS - Lambda Function, running tests using Mocha and Chai, using request-promiseI intend to make moodbot detect various variations of the same emotion so that it can map to relevant content. I also intend to make moodbot play music samples and send memes to the user's phone to make them smile/amuse them. Given sufficient time and skills, I think getting it to detect subtle language nuances would be another goal, thereby making it provide relevant content without the user explicitly instructing it to.", 
     "project_name": "moodbot", 
     "project_tags": [
       "node.js", 
@@ -8551,7 +8551,7 @@
   }, 
   {
     "hackathon_name": "Hack The Midlands", 
-    "project_description": "", 
+    "project_description": "The story is about a man in a room, he is trying to come to grips with his surroundings and figure out what happened. It is a multiple choice, text based game.\nMy teammate was: Luis (Couldn't find his email)\nI had help from Aaron.\nI have posted a Youtube video, going through the program. Here's the code (It may have bugs due to Devpost changing the configuration.)def one():\n    menu = \"You wake up alone. In a dark, damp room. \\n\"\n    menu += \" 1) Examine the room over \\n\"\n    menu += \" 2) Ask 'Hello?' \\n\"\n    menu += \" 3) Cry \"\n    print (menu)def two():\n    menu = \"The room becomes darker, the window becomes blocked and you can hear footsteps coming from under the door \\n\"\n    menu += \" 1) Hide next to the door and wait to see if the person comes in. \\n\"\n    menu += \" 2) Sit on the floor and wait for the person. \\n\"\n    menu += \" 3) Sit slumped against the wall, screaming: 'WHERE AM I? WHY IS IT DARK? WHO'S THERE?' \\n\"\n    print (menu)def three():\n    menu = \"The room is now pitch black, you cannot see anything. The footsteps are growing louder, closer. Then, it starts raining outside. Water starts pouring in through the open hole that is a window. \\n\"\n    menu += \" 1) Go over to the window, see if you can drink some water \\n\"\n    menu += \" 2) Stay by the door, still waiting \\n\"\n    menu += \" 3) Start shouting widly: 'WHY THE HELL IS IT RAINING? I DIDNT ASK FOR IT TO RAIN. THIS IS STUPID.' \\n\"\n    print (menu)def four():\n    menu = \"With your back against the wall, you hear the footsteps come up to the door, it slowly makes a 'clunk' noise and it opens. \\n\"\n    menu += \" 1) Leap at the intruder with your fists raised and get some early punches in before the mysterious man can do anything \\n\"\n    menu += \" 2) Step back from the wall, with your hands in the air. Ready to speak with the intruder \\n\"\n    menu += \" 3) Start screaming loudly into the intruder's ear, 'WHO ARE YOU, WHY ARE YOU HERE, AAAAAAAAAAAAH!' \\n\"\n    print (menu)def five():\n    menu = \"You wake up, in a room. Its cold, dark and guess what? damp. However, this time there is a man holding a gun to your head. \\n \"\n    menu += \" 1) Sit still, not moving accepting your fate. \\n\"\n    menu += \" 2) Leap out at the intruder and attack him with what force you have. \\n\"def failone():\n    print (\"  You continue crying, the room becomes darker and you cry more. \\n As you cry more your vision begins to become cloudy. You smack your head on the ground. The End\")\n    one()def failtwo():\n    print (\"As the echoes of your voice fade out, your chest hurts. Your lung starts to burn, as well as your throat. \\n\"\n           \"You start coughing and you fall to the floor in a heap. The End.\")\n    one()def failthree():\n    print (\"As you drink the rain, you stop. Your throat burning, you fall to the ground in pain. Realising this is acid rain. Well done, twit.*\")\n    one()def failfour():\n    print (\"As the door opens you yell loudly: 'WHO ARE YOU, WHY ARE YOU HERE? AHHHHHHHHHH'. The man punches you hard in the throat, you start coughing. You are dead.\")\n    one()def endone():\n        print (\"The man chuckles and pulls the trigger, the last thing you hear is the click of the gun loading.\")def endtwo():\n        print (\"You fall to the floor, clutching your thigh. The wound pouring with blood. You look up at the man and your vision starts to fade.\")one()", 
     "project_name": "Python Text Game", 
     "project_tags": [
       "python"
@@ -8711,7 +8711,7 @@
   }, 
   {
     "hackathon_name": "Code for the Kingdom Bay Area Hackathon 2016", 
-    "project_description": "", 
+    "project_description": "My son introduced me to a secular guided meditation site that is powerful, interactive and enjoyable.  I would include God into it and  became a part of my devotional life. I wished there was something like it for Christians as I saw it as an incredible tool to draw people closer to God.  When I complained to God about this, I felt Him saying \"You do it.\"  Since then we've developed a website and recorded over 150 meditations that we believe will have a powerful impact on believers as they meditate on God's Word.While we might have good intentions to meditate on God's Word, too often we get distracted, lose focus and our thoughts wander.  Ocean's Deep Encounters gives you 8-10 minutes of guided meditation with prompts as well as silence for you to personally interact with God.  It helps keep you focused and on track in your time with God.While the website is mobile friendly, the meditations do not advance on such platforms as iPhone and iPad.  We need a mobile app developed so that the meditations are easily accessible to all platforms.", 
     "project_name": "Ocean's Deep Encounters - Guided Christian Meditation", 
     "project_tags": [], 
     "project_url": "https://devpost.com/software/ocean-s-deep-encounters-guided-christian-meditation-po27i3"
@@ -8847,7 +8847,7 @@
   }, 
   {
     "hackathon_name": "Hack4Equality 2016 Live Demo (Los Angeles)", 
-    "project_description": "", 
+    "project_description": "The intial inspiration came from a counselor who stood up at the info session and explained how helped many young people via the Grindr app and text messaging. On his profile picture he had \"Ask me about sexual health information\". He later explained that sometimes he has to balance 3 phones just to keep up with the message and that it would great to have a tool to help with that. I thought the idea was ok at the time but chose to join another team. Then I woke up one morning with an idea that would not leave me.  \"This guy is saving lives and slowing down the spread of STI's and STD's \" And that is awesome!!How could he connect to multiple users on device? How could he connect with multiple users on multiple platforms on one device? How does he know all the information that he needs to know? How does he access this information? Does he ever get tired of answering the same question over and over? Can his time be used more efficiently? How does he get the resources he needs to the right people? How much does he know about the person  in order to give them relevant information? How does the person stay private and comfortable to ask the questions? How does he reconnect with users and alert them- or inform them of valuable information? And how can we make this cool enough that it takes the taboo out of  chatting about Sexual Health.  Frankly, is there a better way. Needless to say, thought would not leave my head.  And that is how HeyBud came about.HeyBud is  \"non-judgmental and chill\" hybrid (AI and Human powered) chat bot to answer sexually related questions, present users with access to health-related resources and automate complex on-boarding paperwork/processes required for health treatment.--To the user it is a familiar chat application that happens to know a lot about sexual information.-- To a counselor it is so much more: behind the scenes - when the chatbot can not answer a question or if a \"red flag\" is raised during the conversation- the conversation is automatically rerouted to a counselor who fits the skillset of what is needed to help the individuals.-- Additionally the counselor is connected to valuable ESRI and Grindr resources to better understand the person and provide them valuable visual feedback.Sweat, Prayers and Tears\nUnfortunately, we lost some team members  due to day-to-day work overload and the immensity of this project. Therefore, Savalas had to build the back-end systems  (on AWS Serverless, PHP, MySQL and Firebase) and the client apps (iOS, Facebook Messenger). Savalas first pitched a slide presentation to his mentors to get their buy-ins. He then gathered relevant information to test the project feasibility. He then put together the architecture with designs. \nAnd the building began. With Prayers Savalas reached out to his friend Eddie to have him put together a video vision that would explain how HeyBud is \"the friend you always had\"-- We lost team members\n-- We also are trying out cutting edge technology like serverless and  SpeechKit.\n-- The area is so new to us that it was somewhat challenging to gather information from mentors. Fortunately, they were great to work with and review our script and directions on multiple occasions.Proud to see the vision to come into fruition. Very proud of the product because we believe that we can save multiple live and livelihoods with HeyBud. We tested multiple times (concept and app with various mellinials)Lots to Share via Slides", 
     "project_name": "HeyBud", 
     "project_tags": [
       "ios", 
@@ -8868,7 +8868,7 @@
   }, 
   {
     "hackathon_name": "Hack4Equality 2016 Live Demo (Los Angeles)", 
-    "project_description": "", 
+    "project_description": "As a transgender woman I found the process of gender and name change to a journey of frustration. So many transgender people already feel alone, hopeless and left out of the normal social community. It is so hard to then be faced with constant roadblocks and confusion in trying to claim your true identity. I wanted something that would make it as easy as possible. Something that would welcome my brothers and sisters into their life of joy with open arms. I can't imagine anything being more economically empowering than claiming your own identity.I used Ruby on Rails as the web framework. PNG files are edited using ImageMagick and then packed up into PDFs and delivered via SendGrid.Source code is up on Github:\n[link]https://github.com/jjeffus/kristening[/link]It's a lot of detail work and I have ADD to the MAX.I'm glad I could participate and finish something. Feels great!There's a right time for things to come together.Right now it works for California. The system is structured so new states can be easily added without a lot of technical knowledge. The core work involves identifying and locating form elements and deciding what their values should be. We need the energy to build this out and make it a real-flawless experience for every trans-person.Rigorous testing both legal and automated needs to be done. Full integration and unit tests should be added for all test systems. The code needs a full security audit as well as some devops considerations for future hosting.", 
     "project_name": "Kristening.me", 
     "project_tags": [
       "ruby-on-rails", 
@@ -8881,7 +8881,7 @@
   }, 
   {
     "hackathon_name": "Hack4Equality 2016 Online-Only (Global)", 
-    "project_description": "", 
+    "project_description": "Healthcare should be equally accessible for everyone. Today thats not the case.\nTrans* people face a larger risk of discrimination, bad treatment and trans unawareness in the healthcare system because of professionals lack of knowledge, and also problematic attitudes and unawareness towards trans people. This is a reality for our trans friends, lovers and the trans community that were closely connected to. We hope to be a part in giving the power and possibility to find healthcare that matches ones needs, and avoid healthcare that dont.Mina has been working with LGBTQI issues for the last ten years, both voluntary, as elected and as an employee. Minas main focus in their work has been hiv/STI-prevention, sex education and trans health and rights. Bjorn has been working with programming, web design and user experience for almost 20 years. Both of us are activists and a part of the LGBTQI-community in Stockholm and Berlin. The challenge for trans persons of finding good an avoid bad healthcare is something that we've experienced very close. We decided that if we combine our knowledge and experience, we mabye could add a little contribution to the work with conquering this challange.With the digital service we've developed, our aim is to:Were really hope that this service can be used by people in the entire trans community, and also mabye by trans allies who want to choose healthcare where trans people get a good treatment.'* In this context, trans is used as an umbrella term to refer to people whose binary or non-binary gender identity and/or expression differ from the sex they were assigned at birth. The term trans in this context includes, but are not limited to, people who are ftm/transmasculine/trans men, mtf/transfeminine/trans women, non binary, genderqueer, two spirit and gender non-conforming people.The service we've developed gives trans people the possibility to review health care facilities based on one's own experience, both by rating and in free-text reviews (something like trip advisor, but about health care and just for trans people. For people moving to a new city, or just wanting to find a trans friendly endocrinologist, hiv/STI testing facility, gyneacologist or General Practitioner, we hope that this platform can be a big help.Filters can be applied to narrow down the search to the kind of healthcare, and reviews from people with a certain kind of sexual orientation and trans experience. For example you can search for clinics that prescribes gender confirming hormones reviewed by people who are transsexual, or hiv/STI-clinics that have got reviews by gay trans guys.This platform will hopefully be used globally, the outspoken aim is that it should be used in several different countries. A clinic appears on the platform as soon as someone reviews it, independent on where it is located. Since one of the challenges we want to facilitate solving is finding the healthcare providers you need when moving to a new country, which quite often can be an obstacle for people who for example need to find somewhere to get hormones and check up values, find a hiv/STI-testing clinic where you can feel safe as a trans person.The work has been done in close connection with or network of trans friends, family members and lovers, as well with the trans community and individuals at trans/LGBTQI NGO:s (TGEU, ILGA Europe and The Swedish Youth Federation for LGBT Rights). The work process has been:The main challenge we have experienced is the distribution of the prototypes and getting actual reviews. We get lots of positive feedback about the project and that this platform is something that people has been longing for and really think is needed. The amount of reviews that we have gotten so far does however not correspond with the positive feed back we have gotten. A part of this is probably that it feels less inspiring to send in feedback in a prototype where you don't know what the end result will be, than giving reviews on a platform that's online and working. But one challenge has definitely been to get people to do actual reviews, and not only saying that it's a really good and needed project.Another challenge has been to find a balance between how much background info you want to have about the reviewers, and how much details to ask about in the review function. For some people, lots of details are good, both about the reviewer and the clinic. On the other hand, some people don't think it feels good to be asked to much questions about yourself, and too many questions in the review function can be a big barrier for giving a review.How to be correct with all rules concerning storage and display of personal data was a field that was new to us, and that at firs felt like quite a bit of a challenge. But after communication with The Swedish Data Protection Authority (our servers are based in Sweden) and checking up European and international legal system concerning this field, we feel that we're safe and know what we're doing.We're really proud about having spoken and gotten feedback from so many people in the target group and with organizations working with sexual health and trans rights and health. All in all, we've reached out to approximately 200 people so far, which feels like a big accomplishments. We're also happy for having gotten our work mentioned in national Swedish radio in a program with about half a milion listeners. And at last, we're really proud about all the positive feedback we've gotten from individuals, NGO:s, our network and other parts of the trans community.We learnt lots in the work with the different prototypes of the review form and all the feedback we got through it. Individuals that have given us feedback have lots of different views, sometimes totally contradictory. Trying to find ways to fulfill the wishes for as many as possible has been a rewarding challange.Since we really wanted to be sure that everything we do is in line with applicable laws, we've learnt quite a bit about the legal system around data use and storage. Another technical stuff we learnt was programming with the Google map API.On a personal level, we've learnt about working together, something that was new to us. We've known each other for several years, but have never worked in a project together before.First of all, we of course hope that the platform will make it easier for many trans people to find good healthcare, and that it will be widely known within the trans community. As mentioned before we have been in contact with several trans and LGBTQI organizations/networks in the making of the platform. One future possibility we see for the platform is that any of these take over the administration of the platform. Also other actors could be in question for taking over the platform and the administration of it. The most important thing for us is that the actor has approach, values and attitudes in line with ours as well as deep knowledge about trans issues, and that the motives for taking over the app not is just commercial but also ideologically based.Another future alternative for the platform is that we continue to administer it ourselves, and to look for some funding for the administrative work with and distribution of the platform. Another way of sustainable funding could be to offer education to health care services in need of improving their trans competence in countries and regions where there don't exist good trans/LGBTQI education programs for health care services.With the technical solution, we see several developement possibilities. A push notification when leaving an adress where google has a clinic listed is something we have been discussing. Technical integration with Grindr, where for example  high-rated clinics for hiv/STI-testning shows on the search grid or come sup as a pop-up when being close, are other possible functions for further development that we have been discussing. Another thing we've been thinking of is to extend the target group for the platform to involve the entire LGBTQI-community. Even though trans people most often face challanges with finding suitable health care, other parts of the LGBTQI-community also struggle with this challenge from time to time.", 
     "project_name": "raTe \u2013 shared trans experiences of healthcare", 
     "project_tags": [
       "perl", 
@@ -8894,14 +8894,14 @@
   }, 
   {
     "hackathon_name": "Hack4Equality 2016 Online-Only (Global)", 
-    "project_description": "", 
+    "project_description": "Everyone deserves to feel welcomed and be happy.Welcomr provides a way for displaced LGBTQ peoples to connect with other LGBTQ members in their area of choice.We used Twilio to host an SMS number and send SMS messages. We used the unofficial Grindr API to send and receive Grindr messages. Here is how it works. A refugee texts our Twilio number with a location, the location is converted to a geological location. We then used the unofficial Grindr API to find users in this geolocation that have a tag #Welcomr in their bio.\nWe now have a communication tunnel set up between the refugee and the Welcomr with our web server as a middleman. \nAs a result, the refugee can easily communicate with someone in the LGBTQ community in their area of choice.\nIn addition, if the refugee and the Welcomr speak different languages, our application uses langdetect and goslate to translate the messages so they can easily communicate.Problems with the Grindr API, encoding errors.Making our application accessible to people without smartphones.We learned about problems that the LGBTQ community faces.More in-depth processing before we select who you are matched with.", 
     "project_name": "Welcomr", 
     "project_tags": [
       "twilio", 
       "python"
     ], 
     "project_url": "https://devpost.com/software/welcomr"
-  },
+  }, 
   {
     "hackathon_name": "Energy management reports for local authorities", 
     "project_description": "Principal Objective\nOur objective has been to reduce the amount of manual work and \u2018number crunching\u2019 involved for energy managers in their report generation process. Previously, reports were emailed out and and analysed on an hour by hour basis on energy managers computers locally, manually. Reports then had to be created by looking at this data and manually finding out statistics from it to then report on. We could see this was a clear problem and so, we built a cloud-based dashboard to automate the process entirely.\nFeatures and Benefits\n\nHalf hourly energy usage reports are automatically input when received as email attachments at a specific email address once per day - therefore no changes to existing infrastructure are needed whatsoever to allow our solution to be used day-to-day by real life energy managers.\n\u2018Energy concerns\u2019 are automatically highlighted by looking at sharp changes in numbers on a week-on-week per-site basis.\nSites can then be viewed in detail and have their usage, averages, and costs, displayed in a table and graphed.\nSites also have a \u2018good\u2019 or \u2018bad\u2019 status generated by our week-on-week analysis algorithm, so energy managers can see wether a particular site is becoming more or less efficient instantly.\nA report can be generated that contains running bi-weekly data, analysed using our per-site week-on-week algorithm, so that energy managers can instantly see the most improving and most deteriorating sites, along with average weekly usage change and average weekly cost change for all sites that they manage.", 
@@ -9077,7 +9077,7 @@
   }, 
   {
     "hackathon_name": "HackSussex2016", 
-    "project_description": "", 
+    "project_description": "Wanted to make something cool with the Pebble and Police data.Takes a user's location and passes that to the Police.uk data API. That then returns a set of data about recent crimes in the area. This is displayed to the user in a variety of ways. For instance, you are able to see how many crimes, the type of crimes and their frequency and the exact spot that most of the crimes occurred.Additionally users can shake the pebble to refetch data and can set the app to automatically update every 20mins if they are walking around and want regular updates.Using the CloudPebble IDE and PebbleJS API (plus GitHub ofc).JavaScript....\nThe Pebble API is lacking when developing in JS as this functionality has only been recently added.  Understanding the documentation (PebbleJS != PebbleKit JS). CloudPebble IDE can be slow to work with. Pebble has a limited screen and button inputs.It runs. First time working with a lot of tech e.g. the Pebble, JSON, JavaScript (for Charlie).[] + [] = \"\"\n[] + {} = {}\n{} + [] = 0\n{} + {} = NaN\nhttps://www.destroyallsoftware.com/talks/wat\nJavaScript is a strange language. However it was something we had not really used before so it was good to learn it. Esp using API to get data and JSON/AJAX stuff.Tidy up and them put on the Pebble Store", 
     "project_name": "CrimeWatch", 
     "project_tags": [
       "javascript"
@@ -9086,7 +9086,7 @@
   }, 
   {
     "hackathon_name": "HackSussex2016", 
-    "project_description": "", 
+    "project_description": "Welcome to HackSussex The GameYou play as \"Master Hacker Ollie\" and it's your job to keep the team tables destressed by going to them and solving their problems.Use the arrow keys to travel to each of the tables. When you visit them, they'll turn green, showing that they're destressed.\nWhen a table turns red, it's getting stressed, and needs visiting quickly!\nAs the day goes on, the team's get more tired, more stressed, and need more attention!How long can YOU keep HackSussex running?Kudos to Ollie and the team for an awesome job!!! I've had a great time :)", 
     "project_name": "Ollie Simulator 2016", 
     "project_tags": [
       "html", 
@@ -9127,7 +9127,7 @@
   }, 
   {
     "hackathon_name": "HackSheffield 1.0", 
-    "project_description": "", 
+    "project_description": "We wanted to create fun game that involved programingThe user creates assembly esque instructions to send to the server in order to instruct the bot in the manouvers it should take.We used socket.io to sync clients with the server and send commands to the bots. Javascript and prayers hold it together.sockets was a challenge to get used to first and most of the team is very new to nodethe viral dream", 
     "project_name": "Algo Fighter", 
     "project_tags": [
       "javascript", 
@@ -9294,7 +9294,7 @@
   }, 
   {
     "hackathon_name": "HackSheffield 1.0", 
-    "project_description": "", 
+    "project_description": "We were inspired by the search and rescue competition to design a robotic vehicle. Once we started the hackathon we were introduced to the myo armband, which we felt would make a cool controller for our robot. Additionally first person view (FPV) would be an important feature as the robot might be out of the operators sight. The Oculus was available which we thought could be implemented into the project to create a VR driving experience. The user would have a first person VR experience of the robot while controlling it with \"driving gestures\" using the Myo armband.The myo armband can classify several different hand gestures, which are fed into an arduino mega. The recognised  gestures are then converted into directions that the robot should follow. These are passed onto the motor controller which drives the corresponding motors. Finally a camera mounted on the front of the vehicle provides a live FPV which is sent over skype to a control computer.We started by building the chassis of the robot and connecting the wheels. Next we programmed the motor controller to power either the left or right side motors. After this we calibrated the myo armband and developed arduino code that extracted the different gestures using Myorduino available on the Myo Market. The camera and live feed were set up via Skype. Finally all the parts were integrated on the chassis.Firstly we hoped to use an oculus rift to provide the FPV however, none of our computers met the minimum system requirements to run the oculus rift.Additionally we were hoping to use a wifi module to communicate with the arduino over wifi. There were several problems with this approach. Firstly trying to update the firmware on the module proved far too problematic. Secondly we could not connect to the local wifi with the wifi module as we needed special administration permission.We were lacking in hardware and had to use leftover bolts and wires from shop floors.Lack of experience working with the new hardware and most programming languages meant a limited amount of features of the myo could be communicated to the Arduino due to inability to edit the source code of the Myoduino.Integrating the myo armband to control the movement of the vehicle while having no knowledge of the myo prior to the project.. \nGetting the microcontrollers to communicate with each other and making use of the limited hardware that was availableBasics of developing for the myo.\nUnderstanding of the myoduino (interaction between Arduino and myo)\nHow gesture extraction works.\nOpenCV is problematic on windows\noculus rift has high system requirements\nHow to get communications running between two micro controllersTo make the robot fully wireless and controllable via odroid.\nAdd semi autonomy in the form of an ultrasonic sensor so the robot doesn't crash.\nVR FPV once we can control the robot wirelessly from a desktop computer\nIncrease the complexity of gestures that the robot recognizes and removal of the delay between input and output to add advanced control.", 
     "project_name": "Myown robot", 
     "project_tags": [
       "arduino", 
@@ -9783,7 +9783,7 @@
   }, 
   {
     "hackathon_name": "StacsHack 2016", 
-    "project_description": "", 
+    "project_description": "Always wanted to try out Arduino robot, thus decided to pick up this challenge set by J.P. Morgan.The robot has few sensors which are used to follow the \"track\" which is basically a black line throughout many duck-taped sheets of paper and dealing with various difficulties like dead ends or part of path missing in order to reach the finish.Learning to use the robot and upload code to it was probably the biggest challenges of all because there are not many guides and examples of how to do so and docs sometimes could be a bit more extensive/helpful. Another challenge was getting out of big loops in the traffic as this robot has really small memory capacity, thus cannot remember that he already was in a particular path and that it is actually spinning around. In order to override this problem, we had to include some randomness to the robot which resolved this problem (eventually), but made robot's line-tracking a bit poorer.We are proud that our robot actually manages to go through nearly all difficulties in the track and most of the time does so without loosing the right path and doing something which is not sensible.We enhanced our C skills and, of course, learned to use Arduino Robot.", 
     "project_name": "LineFollowIno", 
     "project_tags": [
       "c"
@@ -9792,7 +9792,7 @@
   }, 
   {
     "hackathon_name": "StacsHack 2016", 
-    "project_description": "", 
+    "project_description": "Built at St Andrews University Hackathon 2016Originally intended to be an Oculus Rift application, Social Face Recogniser uses computer vision technology to first identify that faces exist, and then recognise who those faces are.Social Face Recogniser adds an overlay that displays a user's social media feed next to their face (as well as their name). On Oculus this would have been amazing to look around a room and see all your friend's feeds, but due to technical limitations of the hardware (and would-be time constraints) we decided to reduce the scope to use a web cam.Social Face Recogniser consists of two programs. The first lets you add a user, and build up a repository of images of them. You also input their name, and social media usernames.The second program uses sets of images of multiple users to build up an identity profile (the program is trained on the image sets). It then uses the webcam feed to identify who is currently in shot, adds an overlay to identify them as a known user (or an unknown l33t hacker).Using a configuration file, you can specify a set of users that should be able to \"unlock\" the profile. All these users must appear on camera at the same time. This could be used as a developer tool to secure processes. For example, perhaps in a code review scenario, you only want a Pull Request to be accepted if both your managers have looked everything over and agree to unlock the repository.The programs are written in Java 8. We use JavaCV (CV = Computer Vision) as a wrapper around OpenCV. We also use Twitter4J to pull Twitter data, and began implementing GitHub feeds using a 3rd Party API (but ran out of time).JavaCV presented numerous challenges -Having all the basic functionality working! Our demo video shows how well it works (given that it was built in 24 hours).Facial recognition is impressively accurate when training data is large enough (around 30+ images seems good).", 
     "project_name": "Social Face Recogniser", 
     "project_tags": [
       "java", 
@@ -9820,7 +9820,7 @@
   }, 
   {
     "hackathon_name": "StacsHack 2016", 
-    "project_description": "", 
+    "project_description": "When contributing to new GitHub projects, especially those which are relatively mature, it takes lots of time to understand the code base. Inspired by WinDirStat, a disk usage statistics viewer, the aim is to allow developers to quickly explore the structure of unfamiliar GitHub projects without having to trawl through web interfaces or clone the repository first.Provides an at-a-glance overview of the repository structure. Finer details can be explored via zooming and tooltips. It makes exploring large and complex projects a breeze.Files are displayed as a directed graph, color coded based on file types, and sized accordingly to length of file.Data binding and wrangling along with drawing SVG components is handled with D3.js library. Requests to GitHub's API are made through jQuery AJAX.I've made a functional tool that solves a real problem. And it looks great too.D3.js is a powerful library for data visualization.", 
     "project_name": "All Your Rebase Are Belong To Us", 
     "project_tags": [
       "d3.js", 
@@ -10070,7 +10070,7 @@
   }, 
   {
     "hackathon_name": "IC Hack '16", 
-    "project_description": "", 
+    "project_description": "A 'fish tank' with a set of creatures that evolve each generation with the goal of collecting food and avoiding danger.Each creature is controlled by an artificial neural network, and training is carried out by a genetic algorithm, mixing the 'chromosomes' of the 'fittest' from to form the next generation.Written in python, using the pygame module for graphics, during ichack16.", 
     "project_name": "fish", 
     "project_tags": [
       "python"
@@ -10194,7 +10194,7 @@
   }, 
   {
     "hackathon_name": "IC Hack '16", 
-    "project_description": "", 
+    "project_description": "Just a fun project about procrastination.A java app that uses the webcam to read user's eye patterns and executes various commands, like opening websites. Useful for quickly switching between websites to appear like you're working!OpenCV in Java for image processing and Java Swing for the GUIFinding OpenCV documentation for Java,\nIssues with OpenCV on MacOSEye tracking and managing to handle the APIHow not to use Git and OpenCVProcrastEnabler can be extended to support more eye patterns and scripts", 
     "project_name": "ProcrastEnabler", 
     "project_tags": [
       "java", 
@@ -10900,7 +10900,7 @@
   }, 
   {
     "hackathon_name": "AstonHack", 
-    "project_description": "", 
+    "project_description": "code.orgRecently i became a code.org volunteer and they have a interesting way of allowing teachers access talented coders and volunteersConnects talented volunteers with teachersOpenTeach will be run in beta as a technology only service in birmingham and we will aim to provide it overseas to developing countries so that teachers and schools can access talented volunteers or teachers for other subjects like math, science, english etc", 
     "project_name": "OpenTeach", 
     "project_tags": [
       "node.js", 
@@ -10961,7 +10961,7 @@
   }, 
   {
     "hackathon_name": "AstonHack", 
-    "project_description": "", 
+    "project_description": "Dropbox link to PowerPoint presentation: https://www.dropbox.com/s/6u7niytw9idh0y6/Aston.ppt?dl=0", 
     "project_name": "Severn Trent Water Testing Robot Technology", 
     "project_tags": [
       "node.js"
@@ -11000,7 +11000,7 @@
   }, 
   {
     "hackathon_name": "AstonHack", 
-    "project_description": "", 
+    "project_description": "Dropbox link to PowerPoint presentation: https://www.dropbox.com/s/6u7niytw9idh0y6/Aston.ppt?dl=0", 
     "project_name": "Severn Trent Water Testing Robot Technology", 
     "project_tags": [
       "node.js"
@@ -11039,7 +11039,7 @@
   }, 
   {
     "hackathon_name": "HackTrain 2.0", 
-    "project_description": "", 
+    "project_description": "Momi Apps Smart Project 9-1-1", 
     "project_name": "Frist Time Air 9-1-1", 
     "project_tags": [
       "android"
@@ -11121,7 +11121,7 @@
   }, 
   {
     "hackathon_name": "HackTrain 2.0", 
-    "project_description": "", 
+    "project_description": "Steve regularly commutes home from London to his local station, he normally arrives home in time for the last bus to his village but tonight his meeting overran and he needs a taxi. Arriving at his station, Steve joins a queue of 8 people also waiting for a ride home, in the cold and wet British weather.What Steve doesn't know is that Sally was on the same train visiting her Aunt  who lives just 3/4 mile from Steve and she too is in the queue waiting for a taxi.Wouldn't it be great if there was some way that Steve and Sally could identify their common destination and share a single taxi there.Traxi brings people together to share taxi rides to their final destination, reducing costs to passengers and giving them a more integrated stress free travel experienceJust by visiting the Traxi webapp Steve and Sally can enter a few basic details and they will then get notified of passengers who could potentially share a ride. All that is left to do is meet up and share that ride to their final destinationThe technology behind traxi is a spatial aware Geofire database, cloud hosted for scalabiliy both up and out. Utilising APIs from google and Uber, Traxi uses its search algorithm to match people to their taxi needs.\n...Reliance on connectivity during trials\nUber API different across platforms\n.Net support for Geofire\nLearning new apis, development platforms\nIdentifying our business model\n...Managing to focus on a specific problem and producing a tangible solution\nFeedback from customers trialed on train from Kings Cross to YorkData connectivity is sketchy at best on the rail network.\nThere are so many \"what-ifs\" to considerThe initial proof of concept is targeting rail journeys and bringing passengers together on the same train, in the future, our matching technology can be extended to pre-booking and make the vision of door to door booking a reality. Beyond that, the other markets that this technology can reach are huge, airports based on flight arrivals to hotels, major events, ferry terminals, just about anywhere where you have a volume of people looking to move to similar locations by a taxi.", 
     "project_name": "Traxi", 
     "project_tags": [
       "google-places", 
@@ -11263,7 +11263,7 @@
   }, 
   {
     "hackathon_name": "HackTrain 2.0", 
-    "project_description": "", 
+    "project_description": "This project is made as part of the Hacktrain 2.0 HackathonThe average commuter working in London spends about two times one hour a day on the train. The perfect length of time to absorb new information is 50 minutes.  Our application makes use of this through bringing teachers and learners together.Users connect through their social network login. They then state if they would like to learn or teach and what their interests are. After this they enter what time they will travel between which locations. The app then matches the learner with possible teachers and shows what they teach.The learner can message a teacher to see if they would like to attend a lesson of theirs. If so the learner books the teacher and pays it's lecture fee. The learner and teacher then get seats assigned in the train and they meet up and exchange knowledge!Due to the project being build in a Hackathon we have hacked together a prototype to show the workings of the application. Because the most important thing was the back-end the front-end has been designed to match the resolution of the demo machine (half the screen of a 1920x1080 monitor). The eventual application would be focussed on the mobile platform, thus the resolution choice.", 
     "project_name": "Training", 
     "project_tags": [
       "javascript", 
@@ -11345,7 +11345,7 @@
   }, 
   {
     "hackathon_name": "HackTrain 2.0", 
-    "project_description": "", 
+    "project_description": "This project is made as part of the Hacktrain 2.0 HackathonThe average commuter working in London spends about two times one hour a day on the train. The perfect length of time to absorb new information is 50 minutes.  Our application makes use of this through bringing teachers and learners together.Users connect through their social network login. They then state if they would like to learn or teach and what their interests are. After this they enter what time they will travel between which locations. The app then matches the learner with possible teachers and shows what they teach.The learner can message a teacher to see if they would like to attend a lesson of theirs. If so the learner books the teacher and pays it's lecture fee. The learner and teacher then get seats assigned in the train and they meet up and exchange knowledge!Due to the project being build in a Hackathon we have hacked together a prototype to show the workings of the application. Because the most important thing was the back-end the front-end has been designed to match the resolution of the demo machine (half the screen of a 1920x1080 monitor). The eventual application would be focussed on the mobile platform, thus the resolution choice.", 
     "project_name": "Training", 
     "project_tags": [
       "javascript", 
@@ -11497,7 +11497,7 @@
   }, 
   {
     "hackathon_name": "Destination Hack: London", 
-    "project_description": "", 
+    "project_description": "For that special weekend away, you need to consult an expert. 3, and only 3, specially selected weekends, each weekend.", 
     "project_name": "Lawrence", 
     "project_tags": [
       "ios", 
@@ -11555,7 +11555,7 @@
   }, 
   {
     "hackathon_name": "Destination Hack: London", 
-    "project_description": "", 
+    "project_description": "Demonstrate the power of Sabre APIs to change business models.Tour operators use a simple web interface to create trip \"apps\". Consumers download the GypsyFeet Travel Marketplace app to find interesting trips & activities. Consumers can easily book these trips using the marketplace app.Completing the entire set of end-to-end scenarios in the time given was challenging for a 3 person team.", 
     "project_name": "GypsyFeet London Hack", 
     "project_tags": [
       "objective-c", 
@@ -11585,7 +11585,7 @@
   }, 
   {
     "hackathon_name": "Destination Hack: London", 
-    "project_description": "", 
+    "project_description": "Travita - an online solution to link flyers with spare baggage capacity with charities that need items that are cheaper overseas, using the Twilio and TripCase APIs.As a frequent flyer I often buy laptops, clothes and other goods overseas in duty free or in other shops overseas to take advantage of lower prices. Then a few years ago I was sent to South Africa, a lecturer at a local University asked me if I could get copies of an economics textbook they needed because textbooks are very expensive there. He also mentioned that electronic items like computers were also extremely expensive. So, I had a brainwave! Why not connect flyers who want to donate to charities that need items from overseas? Many travellers are reluctant to donate money to charities, because they maybe unsure about where the money goes, and may want to shy away from voluntourism. And so Travita was born!Travellers use their Trip Case credentials to log into the Travita website or app. Based on the final travel destination of their journey, they are directed to Charities and items that the Charities want. The Traveller then selects an item they would like to purchase for the Charity. A text message alert is sent to the Charity via Twilio informing them of the purchase.The user then picks up the item at an airport shop or may opt to buy the item second hand.In the future an app version of the website will be available. The traveller will be able to drop off the item in a smart box at the destination airport and the charity will be informed of the drop off and in flight journey using text messages from Twilio.We plan to also contact airlines to get them onboard. Monetisation will be through sponsorship from airlines as part of their strategy for  Corporate Social Responsibility (CSR), who will also pay for the awarding of Air Mile points to travellers as a thank you for their charity work.Other monetisation could come from advertising pop ups on the app or website. During/after a journey passengers could fill in a customer survey regarding the flight or trip and this information could be sold to the various stakeholders in the journey e.g. airlines, hotel chains and so on. And after completing the drop, the traveller has the option to share news of their charity donation (and Gift Aid) to Facebook or Twitter, which includes an advert from some of the sponsors.", 
     "project_name": "Travita", 
     "project_tags": [
       "css", 
@@ -11631,7 +11631,7 @@
   }, 
   {
     "hackathon_name": "Destination Hack: London", 
-    "project_description": "", 
+    "project_description": "Too much time is wasted in planning a trip and we saw gap in market. This inspired us to provide a personalized trip planning solution in 3 simple swipes.This solution enables user to select attractions in the cities. Based on user's selection, app will generate a personalised trip plan. User can also share his/her planned trip with their friends.Routing process data based on ad hoc selections.\nLimited time.Custom engine to generate routine or path from source to destination.Team Work and Team Efforts!\nCoordinationExtending solution using data available from different set of APIs. \nBuild and Share trips to TripCase APIs.", 
     "project_name": "TripEeze", 
     "project_tags": [
       "android", 
@@ -11860,7 +11860,7 @@
   }, 
   {
     "hackathon_name": "Destination Hack: London", 
-    "project_description": "", 
+    "project_description": "When seeking to obtain the best value for money in hotel booking, current booking websites are limited. As a traveller, we are usually forced to book a single hotel in a location despite staying more than one night there. As a result, travel can be costlier and less enjoyable for travellers. Our solution reinvents the booking process by enabling tourists look for the best value/quality combination of multiple hotel properties in the same city.It works in a traditional booking way except you as a traveller are presented not only with single hotel choices.We chose a platform which was not our strongest one so we had to move to another platform after several hours into the project. \nWe were hoping to integrate more APIs, but time constraints didn't allow us to integrate more than two API - one from Sabre Travel called Hotel REST API Hotel Shopping Endpoint and GIATA -  GIATA Hotel Guide Multilingual\nOn the GIATA API we managed to use the description and the pictures, but only in English, not multi-language capabilities yetOur development talent managed to build a prototype which makes use of two APIs - one from Sabre and one from GIATA - GIATA Hotel Guide Multilingual\nWe produced a nice user interface with good graphics and clear logic for the travellerDeveloped our knowledge of APIs\nIdentified areas to improve in our understanding of node.js\nImprove team skill set identification and project management\nRight person to tackle right tasks\nBuild on back end knowledge and experience\nTeam work and communicationExpand Search Criteria\nDeployment to countries worldwide - Net Media Planet states conversions increase by 70% when websites fully localised\nIntegration with various services such as: GIATA Multilingual, TripCase, TripAdvisor, Uber, Airbnb, GetYourGuide, HomeAway, Housetrip and other potential partners", 
     "project_name": "HotelSplitter", 
     "project_tags": [
       "python", 
@@ -12039,7 +12039,7 @@
   }, 
   {
     "hackathon_name": "Destination Hack: London", 
-    "project_description": "", 
+    "project_description": "When seeking to obtain the best value for money in hotel booking, current booking websites are limited. As a traveller, we are usually forced to book a single hotel in a location despite staying more than one night there. As a result, travel can be costlier and less enjoyable for travellers. Our solution reinvents the booking process by enabling tourists look for the best value/quality combination of multiple hotel properties in the same city.It works in a traditional booking way except you as a traveller are presented not only with single hotel choices.We chose a platform which was not our strongest one so we had to move to another platform after several hours into the project. \nWe were hoping to integrate more APIs, but time constraints didn't allow us to integrate more than two API - one from Sabre Travel called Hotel REST API Hotel Shopping Endpoint and GIATA -  GIATA Hotel Guide Multilingual\nOn the GIATA API we managed to use the description and the pictures, but only in English, not multi-language capabilities yetOur development talent managed to build a prototype which makes use of two APIs - one from Sabre and one from GIATA - GIATA Hotel Guide Multilingual\nWe produced a nice user interface with good graphics and clear logic for the travellerDeveloped our knowledge of APIs\nIdentified areas to improve in our understanding of node.js\nImprove team skill set identification and project management\nRight person to tackle right tasks\nBuild on back end knowledge and experience\nTeam work and communicationExpand Search Criteria\nDeployment to countries worldwide - Net Media Planet states conversions increase by 70% when websites fully localised\nIntegration with various services such as: GIATA Multilingual, TripCase, TripAdvisor, Uber, Airbnb, GetYourGuide, HomeAway, Housetrip and other potential partners", 
     "project_name": "HotelSplitter", 
     "project_tags": [
       "python", 
@@ -12052,7 +12052,7 @@
   }, 
   {
     "hackathon_name": "Great Uni Hackathon 2015", 
-    "project_description": "", 
+    "project_description": "Always wanted to be able to position meshes and models without using markers.SLAM + meshes from the BodyLabs APISolving high-latency issues due to computer vision processing.Writing a little library to import meshes.SLAM, OpenGL.Keep developing the markerless tech and integrate more BodyLabs functionalities as they are launched.", 
     "project_name": "OculusDress and Side-Slash", 
     "project_tags": [
       "c++", 
@@ -12114,7 +12114,7 @@
   }, 
   {
     "hackathon_name": "Great Uni Hackathon 2015", 
-    "project_description": "", 
+    "project_description": "Spreading love anywhere anytime to anyone...social media apps.. you register, spread love, make new friend.. lots of them. Have fun!\nAvailable on google play: \nhttps://play.google.com/store/apps/details?id=com.hack.loveFrustrated, debugging, and problem with APII'm SOLO programmer... and this will be my last HackathonPeople are nice! I meet new people...  who help share... really kind :)Make the room warmer", 
     "project_name": "Love Letter", 
     "project_tags": [
       "java", 
@@ -12427,7 +12427,7 @@
   }, 
   {
     "hackathon_name": "Great Uni Hackathon 2015", 
-    "project_description": "", 
+    "project_description": "Inspired by Flappy BirdPipes at BloomBird generated given stock prices of companies. Thanks to Bloomberg for giving access to the statistical data.Fun and addictive gameBloomBird will be a site where you can follow LIVE stock prices and enjoy your time!!!", 
     "project_name": "BloomBird", 
     "project_tags": [
       "bloomberg", 
@@ -12639,7 +12639,7 @@
   }, 
   {
     "hackathon_name": "Great Uni Hackathon 2015", 
-    "project_description": "", 
+    "project_description": "Inspired by Flappy BirdPipes at BloomBird generated given stock prices of companies. Thanks to Bloomberg for giving access to the statistical data.Fun and addictive gameBloomBird will be a site where you can follow LIVE stock prices and enjoy your time!!!", 
     "project_name": "BloomBird", 
     "project_tags": [
       "bloomberg", 
@@ -12903,7 +12903,7 @@
   }, 
   {
     "hackathon_name": "MLH Landing", 
-    "project_description": "", 
+    "project_description": "Revisit the cult classic Duck Hunt with plenty of awesome features!", 
     "project_name": "Landing Ducks", 
     "project_tags": [
       "lua", 

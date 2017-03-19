@@ -13,8 +13,9 @@ import os
 from sklearn.feature_extraction.text import TfidfVectorizer
 import pandas as pd
 import numpy as np
+import sklearn
 
-#hacks2vec = w2v.Word2Vec.load(os.path.join("trained", "hack2vec.w2v"))
+hacks2vec = w2v.Word2Vec.load(os.path.join("trained", "hack2vec.w2v"))
 
 stemmer = PorterStemmer()
 class MyOpener(FancyURLopener):
@@ -126,7 +127,11 @@ def hackVector(description):
     vector_sum = 0
     words = re.sub("[^a-zA-Z]", " ", description).lower().split()
     for word in words:
-        vector_sum = vector_sum + hacks2vec[word]
+        try:
+            vector_sum = vector_sum + hacks2vec[word]
+
+        except:
+            vector_sum = np.zeros(100)
         vector_sum = vector_sum.reshape(1, -1)
         normalised_vector_sum = sklearn.preprocessing.normalize(vector_sum)
         return normalised_vector_sum
@@ -135,7 +140,7 @@ scrapeProject('https://devpost.com/software/spacetrip')
 
 
 dataframe = pd.read_json("myProject.json", encoding='utf-8')
-dataframe['project_vector'] = hackVector(dataframe['description'][0])
+dataframe['project_vector'] = hackVector(dataframe['description'])
 dataframe['keywords'] = extractKeywords(dataframe['description'][0])
 
 dataframe.head()

@@ -9,7 +9,7 @@ import time
 
 start = time.time()
 
-with open('scrapers/projects_wordcloud.json') as data_file:    
+with open('../scrapers/projects_wordcloud.json') as data_file:    
     projects = json.load(data_file)
 
 text=""
